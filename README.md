@@ -23,4 +23,4 @@ $ git clone andrewgarner:config.git ~/.config
 
 ## Copyright
 
-© 2013 Andrew Garner
+© 2013 Andrew Garner. See [LICENSE](LICENSE.md) for details.
