@@ -12,6 +12,10 @@ $ git clone andrewgarner:config.git ~/.config
 ```
 
 
+## Contents
+
+- [Fish shell](fish)
+
 ## Authors
 
 - [Andrew Garner](https://github.com/andrewgarner/)
