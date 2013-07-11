@@ -13,6 +13,11 @@ set -g __fish_git_prompt_showupstream 'yes'
 set -g __fish_git_prompt_showstashstate 'yes'
 set -g __fish_git_prompt_showdirtystate 'yes'
 
+set -g __fish_git_prompt_char_stashstate '↩'
+set -g __fish_git_prompt_char_stagedstate '→'
+set -g __fish_git_prompt_char_upstream_ahead '↑'
+set -g __fish_git_prompt_char_upstream_behind '↓'
+
 set -g -x fish_color_autosuggestion normal
 set -g -x fish_color_command red
 set -g -x fish_color_comment normal
