@@ -29,3 +29,7 @@ set -g -x fish_color_quote cyan
 set -g -x fish_color_redirection normal
 set -g -x fish_color_search_match --background=magenta
 set -g -x fish_color_valid_path --underline
+set -g -x fish_pager_color_completion normal
+set -g -x fish_pager_color_description normal
+set -g -x fish_pager_color_prefix red --bright
+set -g -x fish_pager_color_progress green
