@@ -1,10 +1,9 @@
 set -x TERM screen-256color
 set -x EDITOR nano
 
-set PATH $HOME/.rbenv/shims $PATH
-rbenv rehash >/dev/null ^&1
+set -x PATH $HOME/.rbenv/shims /usr/local/share/npm/bin /usr/local/bin /usr/local/sbin /usr/bin /usr/sbin /bin /sbin
 
-set PATH /usr/local/share/npm/bin $PATH
+rbenv rehash >/dev/null ^&1
 
 alias p project
 
