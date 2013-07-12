@@ -5,6 +5,7 @@ set -x PATH $HOME/.rbenv/shims /usr/local/share/npm/bin /usr/local/bin /usr/loca
 
 rbenv rehash >/dev/null ^&1
 
+alias b bundle
 alias p project
 
 set fish_greeting
