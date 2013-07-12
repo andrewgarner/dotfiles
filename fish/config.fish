@@ -8,6 +8,7 @@ rbenv rehash >/dev/null ^&1
 alias b bundle
 alias g git
 alias p project
+alias r rake
 
 set fish_greeting
 
