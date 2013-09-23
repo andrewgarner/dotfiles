@@ -3,6 +3,8 @@ set -x EDITOR subl -w
 
 set -x PATH $HOME/.rbenv/shims /usr/local/share/npm/bin /usr/local/bin /usr/local/sbin $PATH
 
+set -x AWS_CONFIG_FILE $HOME/.config/aws
+
 rbenv rehash >/dev/null ^&1
 
 alias b bundle
