@@ -1,7 +1,7 @@
 set -x TERM screen-256color
 set -x EDITOR nano
 
-set -x PATH $HOME/.rbenv/shims /usr/local/share/npm/bin /usr/local/bin /usr/local/sbin /usr/bin /usr/sbin /bin /sbin
+set -x PATH $HOME/.rbenv/shims /usr/local/share/npm/bin /usr/local/bin /usr/local/sbin $PATH
 
 rbenv rehash >/dev/null ^&1
 
