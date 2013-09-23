@@ -9,6 +9,7 @@ alias b bundle
 alias g git
 alias p project
 alias r rake
+alias git hub
 
 set fish_greeting
 
