@@ -42,3 +42,5 @@ set -g -x fish_pager_color_completion normal
 set -g -x fish_pager_color_description normal
 set -g -x fish_pager_color_prefix red --bright
 set -g -x fish_pager_color_progress green
+
+bind \cr 'rake'
