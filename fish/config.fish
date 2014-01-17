@@ -8,6 +8,7 @@ set -x AWS_CONFIG_FILE $HOME/.config/aws
 rbenv rehash >/dev/null ^&1
 
 alias b bundle
+alias c cucumber
 alias g git
 alias p project
 alias r rake
