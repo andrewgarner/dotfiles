@@ -4,6 +4,7 @@ set -x EDITOR subl -w
 set -x PATH $HOME/.rbenv/shims /usr/local/share/npm/bin /usr/local/bin /usr/local/sbin $PATH
 
 set -x AWS_CONFIG_FILE $HOME/.config/aws
+set -x RUBY_BUILD_CACHE_PATH $HOME/.rbenv/cache
 
 rbenv rehash >/dev/null ^&1
 
