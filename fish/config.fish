@@ -9,6 +9,8 @@ set -x RUBY_BUILD_CACHE_PATH $HOME/.rbenv/cache
 set -x RUBY_CONFIGURE_OPTS --with-readline-dir=(brew --prefix readline)
 
 set -x DOCKER_HOST tcp://192.168.59.103:2375
+set -x DOCKER_CERT_PATH $HOME/.boot2docker/certs/boot2docker-vm
+set -x DOCKER_TLS_VERIFY 1
 
 nodenv rehash >/dev/null ^&1
 rbenv rehash >/dev/null ^&1
