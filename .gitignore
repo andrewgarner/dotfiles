@@ -3,6 +3,7 @@ direnv
 hub
 .idea
 .generators
+.otto
 .rakeTasks
 *.iml
 *.ipr
