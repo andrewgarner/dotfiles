@@ -2,15 +2,24 @@
 
 My configuration files.
 
+## Dependencies
+
+- [rcm]
+
 
 ## Installation
 
 Clone the repository:
 
 ```sh
-$ git clone andrewgarner:config.git ~/.config
+$ git clone andrewgarner:config.git ~/.dotfiles
 ```
 
+Update and install dotfiles managed by [rcm]:
+
+```sh
+$ rcup
+```
 
 ## Contents
 
@@ -24,3 +33,5 @@ $ git clone andrewgarner:config.git ~/.config
 ## Copyright
 
 © 2013 Andrew Garner. See [LICENSE](LICENSE.md) for details.
+
+[rcm]: https://github.com/thoughtbot/rcm
