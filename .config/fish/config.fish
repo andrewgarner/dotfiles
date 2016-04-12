@@ -3,14 +3,13 @@ set -x ALTERNATE_EDITOR ''
 set -x EDITOR 'emacsclient -t'
 set -x VISUAL 'emacsclient -c -a emacs'
 
-set -x PATH $HOME/.nodenv/shims $HOME/.rbenv/shims /usr/local/bin /usr/local/sbin $PATH
+set -x PATH /usr/local/bin /usr/local/sbin $PATH
 
 set -x AWS_CONFIG_FILE $HOME/.config/aws
-set -x NODE_BUILD_CACHE_PATH $HOME/.nodenv/cache
-set -x RUBY_BUILD_CACHE_PATH $HOME/.rbenv/cache
-set -x RUBY_CONFIGURE_OPTS --with-readline-dir=(brew --prefix readline)
 
 set -x GOPATH $HOME/.go
+set -x NODENV_ROOT /usr/local/var/nodenv
+set -x RBENV_ROOT /usr/local/var/rbenv
 
 if not begin
     [ -f ~/.gpg-agent-info ]
@@ -22,8 +21,8 @@ end
 set -g -x GPG_AGENT_INFO (cut -c 16- ~/.gpg-agent-info)
 set -g -x GPG_TTY (tty)
 
-nodenv rehash >/dev/null ^&1
-rbenv rehash >/dev/null ^&1
+status --is-interactive; and source (nodenv init -|psub)
+status --is-interactive; and source (rbenv init -|psub)
 
 alias b bundle
 alias c cucumber
