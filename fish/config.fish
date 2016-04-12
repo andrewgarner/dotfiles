@@ -1,5 +1,7 @@
 set -x TERM screen-256color
-set -x EDITOR subl -w
+set -x ALTERNATE_EDITOR ''
+set -x EDITOR 'emacsclient -t'
+set -x VISUAL 'emacsclient -c -a emacs'
 
 set -x PATH $HOME/.nodenv/shims $HOME/.rbenv/shims /usr/local/bin /usr/local/sbin $PATH
 
@@ -29,6 +31,8 @@ rbenv rehash >/dev/null ^&1
 
 alias b bundle
 alias c cucumber
+alias e 'emacsclient -t'
+alias ec 'emacsclient -c'
 alias g git
 alias r rake
 alias git hub

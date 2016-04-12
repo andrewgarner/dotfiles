@@ -8,7 +8,6 @@
 
 [core]
 	excludesfile = ~/.gitignore
-	editor = nano
 	pager = less -r
 
 [push]
