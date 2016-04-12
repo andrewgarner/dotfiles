@@ -1,6 +1,10 @@
 [user]
 	name = Andrew Garner
 	email = andrew@andrewgarner.com
+	signingkey = andrew@andrewgarner.com
+
+[commit]
+	gpgsign = true
 
 [core]
 	excludesfile = ~/.gitignore

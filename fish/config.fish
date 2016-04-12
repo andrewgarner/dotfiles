@@ -14,6 +14,16 @@ set -x DOCKER_TLS_VERIFY 1
 
 set -x GOPATH $HOME/.go
 
+if not begin
+    [ -f ~/.gpg-agent-info ]
+    and kill -0 (cut -d : -f 2 ~/.gpg-agent-info) ^/dev/null
+end
+    gpg-agent --daemon --no-grab --write-env-file ~/.gpg-agent-info >/dev/null ^&1
+end
+
+set -g -x GPG_AGENT_INFO (cut -c 16- ~/.gpg-agent-info)
+set -g -x GPG_TTY (tty)
+
 nodenv rehash >/dev/null ^&1
 rbenv rehash >/dev/null ^&1
 
