@@ -4,6 +4,8 @@ My prefs and settings.
 
 ## Dependencies
 
+- [Homebrew]
+- [Homebrew Bundle]
 - [rcm]
 
 
@@ -21,6 +23,12 @@ Update and install dotfiles managed by [rcm]:
 $ rcup
 ```
 
+Install all of the [Homebrew] dependencies:
+
+```sh
+$ brew bundle
+```
+
 ## Contents
 
 - [Fish shell](fish)
@@ -34,4 +42,6 @@ $ rcup
 
 © 2016 Andrew Garner. See [LICENSE](LICENSE.md) for details.
 
+[homebrew bundle]: https://github.com/Homebrew/homebrew-bundle
+[homebrew]: http://brew.sh
 [rcm]: https://github.com/thoughtbot/rcm
