@@ -21,6 +21,7 @@ end
 set -g -x GPG_AGENT_INFO (cut -c 16- ~/.gpg-agent-info)
 set -g -x GPG_TTY (tty)
 
+status --is-interactive; and source (direnv hook fish -|psub)
 status --is-interactive; and source (nodenv init -|psub)
 status --is-interactive; and source (rbenv init -|psub)
 
@@ -65,5 +66,3 @@ set -g -x fish_pager_color_prefix red --bright
 set -g -x fish_pager_color_progress green
 
 bind \cr 'rake'
-
-eval (direnv hook fish)
