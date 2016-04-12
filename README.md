@@ -2,6 +2,7 @@
 
 My prefs and settings.
 
+
 ## Dependencies
 
 - [Homebrew]
@@ -29,9 +30,6 @@ Install all of the [Homebrew] dependencies:
 $ brew bundle
 ```
 
-## Contents
-
-- [Fish shell](fish)
 
 ## Authors
 
@@ -41,6 +39,7 @@ $ brew bundle
 ## Copyright
 
 © 2016 Andrew Garner. See [LICENSE](LICENSE.md) for details.
+
 
 [homebrew bundle]: https://github.com/Homebrew/homebrew-bundle
 [homebrew]: http://brew.sh
