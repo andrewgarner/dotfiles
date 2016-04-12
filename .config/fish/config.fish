@@ -1,9 +1,9 @@
+set -U fish_user_paths /usr/local/bin /usr/local/sbin $fish_user_paths
+
 set -x TERM screen-256color
 set -x ALTERNATE_EDITOR ''
 set -x EDITOR 'emacsclient -t'
 set -x VISUAL 'emacsclient -c -a emacs'
-
-set -x PATH /usr/local/bin /usr/local/sbin $PATH
 
 set -x AWS_CONFIG_FILE $HOME/.config/aws
 
