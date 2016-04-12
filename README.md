@@ -1,6 +1,6 @@
-# Config
+# dotfiles
 
-My configuration files.
+My prefs and settings.
 
 ## Dependencies
 
@@ -12,7 +12,7 @@ My configuration files.
 Clone the repository:
 
 ```sh
-$ git clone andrewgarner:config.git ~/.dotfiles
+$ git clone git@github.com:andrewgarner/dotfiles.git ~/.dotfiles
 ```
 
 Update and install dotfiles managed by [rcm]:
