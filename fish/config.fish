@@ -30,7 +30,6 @@ rbenv rehash >/dev/null ^&1
 alias b bundle
 alias c cucumber
 alias g git
-alias p project
 alias r rake
 alias git hub
 
