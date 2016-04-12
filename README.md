@@ -32,6 +32,6 @@ $ rcup
 
 ## Copyright
 
-© 2013 Andrew Garner. See [LICENSE](LICENSE.md) for details.
+© 2016 Andrew Garner. See [LICENSE](LICENSE.md) for details.
 
 [rcm]: https://github.com/thoughtbot/rcm
