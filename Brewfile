@@ -50,7 +50,7 @@ brew 'ruby-build' # for installing Rubies
 brew 'phantomjs' # for headless WebKit scriptable testing  via a JavaScript AP
 brew 'qt' # for headless JavaScript testing via Capybara Webkit
 
-# Applications
+# Applications
 cask 'adobe-creative-cloud'
 cask 'appcleaner'
 cask 'datagrip'
