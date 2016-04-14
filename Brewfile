@@ -29,12 +29,6 @@ brew 'tmux' # for saving project state and switching between projects
 # AWS tools
 brew 'awscli' # official AWS command-line interface
 
-# Docker tools
-brew 'docker' # for packing, shipping and running any application as a lightweight container
-brew 'docker-compose' # for isolating development environments using Docker
-brew 'docker-machine' # for creating Docker hosts locally and on cloud providers
-brew 'docker-swarm' # for turning a pool of Docker hosts into a single, virtual host
-
 # GitHub tools
 brew 'hub' # for interacting with the GitHub API
 
@@ -71,6 +65,7 @@ cask 'iterm2'
 cask 'paparazzi'
 cask 'skype'
 cask 'transmit'
+cask 'virtualbox'
 
 # Databases
 brew 'mysql', restart_service: true
