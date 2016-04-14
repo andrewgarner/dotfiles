@@ -47,7 +47,7 @@ brew 'rbenv' # for managing versions of Ruby
 brew 'ruby-build' # for installing Rubies
 
 # Testing tools
-brew 'phantomjs' # for headless WebKit scriptable testing  via a JavaScript AP
+brew 'phantomjs' # for headless WebKit scriptable testing via a JavaScript API
 brew 'qt' # for headless JavaScript testing via Capybara Webkit
 
 # Applications
