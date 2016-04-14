@@ -65,6 +65,7 @@ cask 'ipvanish-vpn'
 cask 'iterm2'
 cask 'paparazzi'
 cask 'skype'
+cask 'transmission'
 cask 'transmit'
 cask 'virtualbox'
 
