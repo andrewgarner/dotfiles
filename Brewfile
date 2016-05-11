@@ -72,6 +72,7 @@ cask 'skype'
 cask 'transmission'
 cask 'transmit'
 cask 'virtualbox'
+cask 'whatsapp'
 
 # Databases
 brew 'mysql', restart_service: true
