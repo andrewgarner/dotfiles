@@ -2,6 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'thoughtbot/formulae'
 tap 'homebrew/services'
+tap 'caskroom/homebrew-versions'
 
 # Shell
 brew 'fish' # user-friendly command-line shell
@@ -58,6 +59,7 @@ cask 'dymo-label'
 cask 'flux'
 cask 'garmin-express'
 cask 'google-chrome'
+cask 'google-chrome-canary'
 cask 'gpgtools'
 cask 'imagealpha'
 cask 'imageoptim'
