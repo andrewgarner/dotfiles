@@ -26,6 +26,7 @@ brew 'pinentry' # passphrase entry dialog
 brew 'pinentry-mac' # pinentry for GPG on Mac
 brew 'rcm' # for managing dotfiles
 brew 'tmux' # for saving project state and switching between projects
+brew 'zopfli' # very good, but slow, deflate or zlib compression
 
 # AWS tools
 brew 'awscli' # official AWS command-line interface
