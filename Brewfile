@@ -41,6 +41,7 @@ brew 'heroku-toolbelt' # everything needed to get started with Heroku
 brew 'imagemagick' # for cropping and resizing images
 
 # Programming languages and configuration
+brew 'elixir' # for a Elixir programming environment
 brew 'erlang' # for a Erlang programming environment
 brew 'go' # for a Go programming environment
 brew 'node-build' # for installing Node.js
