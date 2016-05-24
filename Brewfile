@@ -12,6 +12,7 @@ brew 'gitsh' # an interactive shell for Git
 brew 'ack' # for finding things in files
 brew 'aspell' # for  spell checking
 brew 'coreutils' # GNU File, Shell, and Text utilities
+brew 'direnv' # environment switcher for the shell
 brew 'dnsmasq' # for local DNS
 brew 'git' # for version control
 brew 'gnupg' # for encryption and signing of data and communications
