@@ -35,6 +35,16 @@ brew 'awscli' # official AWS command-line interface
 # GitHub tools
 brew 'hub' # for interacting with the GitHub API
 
+# HashiCorp tools
+brew 'consul' # service discovery and configuration
+brew 'nomad' # deploy applications
+brew 'otto' # successor to Vagrant
+brew 'packer' # create images for the cloud
+brew 'serf' # cluster membership, failure detection and orchestration
+brew 'terraform' # manage cloud infrastructure
+brew 'vagrant' # manage development environments
+brew 'vault' # manage secrets
+
 # Heroku tools
 brew 'heroku-toolbelt' # everything needed to get started with Heroku
 
