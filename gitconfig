@@ -38,6 +38,7 @@
 
 [diff]
 	tool = Kaleidoscope
+	compactionHeuristic = 1
 
 [mergetool "Kaleidoscope"]
 	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
@@ -75,3 +76,10 @@
 
 [help]
 	autocorrect = 1
+
+[pager]
+	log = `brew --prefix`/share/git-core/contrib/diff-highlight/diff-highlight | less
+	show = `brew --prefix`/share/git-core/contrib/diff-highlight/diff-highlight | less
+	diff = `brew --prefix`/share/git-core/contrib/diff-highlight/diff-highlight | less
+[interactive]
+	diffFilter = `brew --prefix`/share/git-core/contrib/diff-highlight/diff-highlight
