@@ -1,51 +1,55 @@
-[user]
-	name = Andrew Garner
-	email = andrew@andrewgarner.com
-	signingkey = andrew@andrewgarner.com
-
-[commit]
-	gpgsign = true
-
-[core]
-	excludesfile = ~/.gitignore
-	pager = less -r
-
-[push]
-	default = current
-
-[branch]
-	autosetuprebase = always
+[alias]
+	l = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	ll = log --color --stat --abbrev-commit
+	standup = !"git log --reverse --branches --since=$(if [[ "Mon" == "$(date +%a)" ]]; then echo "last friday"; else echo "yesterday"; fi) --author=$(git config --get user.email) --format=format:'%C(cyan) %ad %C(yellow)%h %Creset %s %Cgreen%d' --date=local"
 
 [apply]
 	whitespace = fix
 
-[format]
-	pretty = oneline
+[branch]
+	autosetuprebase = always
+
+[commit]
+	gpgsign = true
 
 [color]
 	ui = true
 	interactive = auto
 
-[rebase]
-	autosquash = true
-	autostash = true
+[core]
+	excludesfile = ~/.gitignore
+	pager = less -r
 
-[difftool "Kaleidoscope"]
-	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
-
-[difftool]
-	prompt = false
+[credential]
+	helper = osxkeychain
 
 [diff]
 	tool = Kaleidoscope
 	compactionHeuristic = 1
 
-[mergetool "Kaleidoscope"]
-	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
-	trustExitCode = true
-
-[mergetool]
+[difftool]
 	prompt = false
+
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+
+[format]
+	pretty = oneline
+
+[github]
+	user = andrewgarner
+
+[help]
+	autocorrect = 1
+
+[heroku]
+	account = andrewgarner
+
+[hub]
+	protocol = https
+
+[interactive]
+	diffFilter = `brew --prefix`/share/git-core/contrib/diff-highlight/diff-highlight
 
 [merge]
 	tool = Kaleidoscope
@@ -54,32 +58,26 @@
 	name = Resolves Gemfile.lock merge conflicts by running `bundle install`
 	driver = echo Gemfile.lock merge conflict, running bundle install && bundle install --quiet
 
-[alias]
-	l  = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-	ll = log --color --stat --abbrev-commit
-	standup = !"git log --reverse --branches --since=$(if [[ "Mon" == "$(date +%a)" ]]; then echo "last friday"; else echo "yesterday"; fi) --author=$(git config --get user.email) --format=format:'%C(cyan) %ad %C(yellow)%h %Creset %s %Cgreen%d' --date=local"
+[mergetool]
+	prompt = false
 
-[remote "origin"]
-	prune = true
-
-[github]
-	user = andrewgarner
-
-[hub]
-	protocol = https
-
-[heroku]
-	account = andrewgarner
-
-[credential]
-	helper = osxkeychain
-
-[help]
-	autocorrect = 1
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustExitCode = true
 
 [pager]
 	log = `brew --prefix`/share/git-core/contrib/diff-highlight/diff-highlight | less
 	show = `brew --prefix`/share/git-core/contrib/diff-highlight/diff-highlight | less
 	diff = `brew --prefix`/share/git-core/contrib/diff-highlight/diff-highlight | less
-[interactive]
-	diffFilter = `brew --prefix`/share/git-core/contrib/diff-highlight/diff-highlight
+
+[push]
+	default = current
+
+[rebase]
+	autosquash = true
+	autostash = true
+
+[user]
+	name = Andrew Garner
+	email = andrew@andrewgarner.com
+	signingkey = andrew@andrewgarner.com
