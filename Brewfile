@@ -42,7 +42,7 @@ brew 'otto' # successor to Vagrant
 brew 'packer' # create images for the cloud
 brew 'serf' # cluster membership, failure detection and orchestration
 brew 'terraform' # manage cloud infrastructure
-brew 'vagrant' # manage development environments
+cask 'vagrant' # manage development environments
 brew 'vault' # manage secrets
 
 # Heroku tools
