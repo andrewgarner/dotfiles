@@ -98,5 +98,5 @@ brew 'redis', restart_service: true
 brew 'sqlite'
 
 # Editors
-brew 'emacs'
+brew 'emacs', args: %w(with-cocoa)
 brew 'emacs-mac'
