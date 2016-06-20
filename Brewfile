@@ -1,8 +1,8 @@
 cask_args appdir: '/Applications'
 
-tap 'thoughtbot/formulae'
-tap 'homebrew/services'
 tap 'caskroom/homebrew-versions'
+tap 'homebrew/services'
+tap 'thoughtbot/formulae'
 
 # Shell
 brew 'fish' # user-friendly command-line shell
