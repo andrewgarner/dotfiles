@@ -1,5 +1,6 @@
 cask_args appdir: '/Applications'
 
+tap 'caskroom/homebrew-fonts'
 tap 'caskroom/homebrew-versions'
 tap 'homebrew/services'
 tap 'thoughtbot/formulae'
@@ -100,3 +101,13 @@ brew 'sqlite'
 # Editors
 brew 'emacs', args: %w(with-cocoa with-gnutls), restart_service: true
 brew 'emacs-mac'
+
+# Fonts
+cask 'font-anonymous-pro'
+cask 'font-fira-code'
+cask 'font-fira-mono'
+cask 'font-fira-sans'
+cask 'font-fontawesome'
+cask 'font-source-code-pro'
+cask 'font-source-sans-pro'
+cask 'font-source-serif-pro'
