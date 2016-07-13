@@ -22,10 +22,12 @@ end
 set -g -x GPG_AGENT_INFO (cut -c 16- ~/.gpg-agent-info)
 set -g -x GPG_TTY (tty)
 
-status --is-interactive; and source (direnv hook fish -|psub)
-status --is-interactive; and source (nodenv init -|psub)
-status --is-interactive; and source (rbenv init -|psub)
-status --is-interactive; and source (tmuxifier init -|psub)
+if status --is-interactive
+  source (direnv hook fish -|psub)
+  source (nodenv init -|psub)
+  source (rbenv init -|psub)
+  source (tmuxifier init -|psub)
+end
 
 alias b bundle
 alias c cucumber
