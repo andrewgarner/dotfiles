@@ -33,6 +33,9 @@ brew 'zopfli' # very good, but slow, deflate or zlib compression
 # AWS tools
 brew 'awscli' # official AWS command-line interface
 
+# Digital Ocean tools
+brew 'doctl' # a command line tool for DigitalOcean services
+
 # GitHub tools
 brew 'hub' # for interacting with the GitHub API
 
