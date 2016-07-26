@@ -111,8 +111,10 @@ brew 'emacs-mac'
 
 # Fonts
 cask 'font-anonymous-pro'
+cask 'font-anonymous-pro-for-powerline'
 cask 'font-fira-code'
 cask 'font-fira-mono'
+cask 'font-fira-mono-for-powerline'
 cask 'font-fira-sans'
 cask 'font-fontawesome'
 cask 'font-source-code-pro'
