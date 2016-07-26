@@ -1,4 +1,5 @@
 set -gx PATH /usr/local/bin /usr/local/sbin $PATH
+set -gx PATH $HOME/.tmuxifier/bin $PATH
 
 set -x TERM screen-256color
 set -x ALTERNATE_EDITOR ''
@@ -24,6 +25,7 @@ set -g -x GPG_TTY (tty)
 status --is-interactive; and source (direnv hook fish -|psub)
 status --is-interactive; and source (nodenv init -|psub)
 status --is-interactive; and source (rbenv init -|psub)
+status --is-interactive; and source (tmuxifier init -|psub)
 
 alias b bundle
 alias c cucumber
