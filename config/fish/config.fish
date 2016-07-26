@@ -1,4 +1,4 @@
-set -U fish_user_paths /usr/local/bin /usr/local/sbin $fish_user_paths
+set -gx PATH /usr/local/bin /usr/local/sbin $PATH
 
 set -x TERM screen-256color
 set -x ALTERNATE_EDITOR ''
