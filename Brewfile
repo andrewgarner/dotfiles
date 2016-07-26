@@ -64,6 +64,7 @@ brew 'nodeenv' # for managing versions of Node.js
 brew 'python' # for a Python programming environment
 brew 'rbenv' # for managing versions of Ruby
 brew 'rbenv-aliases' # for creating aliases for versions of Ruby
+brew 'rbenv-default-gems' # for installing default gems with version of Ruby
 brew 'ruby-build' # for installing Rubies
 
 # Testing tools
