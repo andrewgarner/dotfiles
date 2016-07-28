@@ -1,3 +1,4 @@
 ---
 BUNDLE_BIN: bin
+BUNDLE_GEM__COC: '1'
 BUNDLE_IGNORE_MESSAGES: 'true'
