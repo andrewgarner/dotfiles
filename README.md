@@ -15,7 +15,7 @@ My prefs and settings.
 Clone the repository:
 
 ```sh
-$ git clone git@github.com:andrewgarner/dotfiles.git ~/.dotfiles
+$ git clone --recursive git@github.com:andrewgarner/dotfiles.git ~/.dotfiles
 ```
 
 Update and install dotfiles managed by [rcm]:
