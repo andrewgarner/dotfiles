@@ -3,6 +3,7 @@ cask_args appdir: '/Applications'
 tap 'caskroom/homebrew-fonts'
 tap 'caskroom/homebrew-versions'
 tap 'homebrew/services'
+tap 'puma/puma'
 tap 'thoughtbot/formulae'
 
 # Shell
@@ -14,7 +15,6 @@ brew 'ack' # for finding things in files
 brew 'aspell' # for  spell checking
 brew 'coreutils' # GNU File, Shell, and Text utilities
 brew 'direnv' # environment switcher for the shell
-brew 'dnsmasq' # for local DNS
 brew 'git' # for version control
 brew 'gnupg' # for encryption and signing of data and communications
 brew 'gpg-agent' # GPG key agent
@@ -26,6 +26,7 @@ brew 'nginx' # HTTP server and reverse proxy
 brew 'openssl' # for Transport Layer Security (TLS)
 brew 'pinentry' # passphrase entry dialog
 brew 'pinentry-mac' # pinentry for GPG on Mac
+brew 'puma-dev' # to manage rack apps in development with puma
 brew 'rcm' # for managing dotfiles
 brew 'tmux' # for saving project state and switching between projects
 brew 'zopfli' # very good, but slow, deflate or zlib compression
