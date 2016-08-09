@@ -23,6 +23,7 @@ brew 'httpie' # CLI HTTP client
 brew 'jq' # for command-line JSON processing
 brew 'keybase' # command-line interface to Keybase.io
 brew 'nginx' # HTTP server and reverse proxy
+brew 'openconnect' # VPN client for Cisco's AnyConnect VPN
 brew 'openssl' # for Transport Layer Security (TLS)
 brew 'pinentry' # passphrase entry dialog
 brew 'pinentry-mac' # pinentry for GPG on Mac
