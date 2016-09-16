@@ -110,7 +110,6 @@ brew 'redis', restart_service: :changed
 brew 'sqlite'
 
 # Editors
-brew 'emacs', args: %w(with-cocoa with-gnutls), restart_service: :changed
 brew 'emacs-mac'
 
 # Fonts
