@@ -12,6 +12,7 @@ brew 'gitsh' # an interactive shell for Git
 
 # Unix tools
 brew 'ack' # for finding things in files
+brew 'archey' # for displaying system information
 brew 'aspell' # for  spell checking
 brew 'coreutils' # GNU File, Shell, and Text utilities
 brew 'direnv' # environment switcher for the shell
