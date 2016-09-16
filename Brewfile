@@ -104,13 +104,13 @@ cask 'virtualbox'
 cask 'whatsapp'
 
 # Databases
-brew 'mysql', restart_service: true
-brew 'postgresql', restart_service: true
-brew 'redis', restart_service: true
+brew 'mysql', restart_service: :changed
+brew 'postgresql', restart_service: :changed
+brew 'redis', restart_service: :changed
 brew 'sqlite'
 
 # Editors
-brew 'emacs', args: %w(with-cocoa with-gnutls), restart_service: true
+brew 'emacs', args: %w(with-cocoa with-gnutls), restart_service: :changed
 brew 'emacs-mac'
 
 # Fonts
