@@ -45,7 +45,6 @@ brew 'hub' # for interacting with the GitHub API
 # HashiCorp tools
 brew 'consul' # service discovery and configuration
 brew 'nomad' # deploy applications
-brew 'otto' # successor to Vagrant
 brew 'packer' # create images for the cloud
 brew 'serf' # cluster membership, failure detection and orchestration
 brew 'terraform' # manage cloud infrastructure
@@ -110,7 +109,7 @@ brew 'redis', restart_service: :changed
 brew 'sqlite'
 
 # Editors
-brew 'emacs-mac'
+brew 'emacs-mac', args: %w(with-spacemacs-icon)
 
 # Fonts
 cask 'font-anonymous-pro'
