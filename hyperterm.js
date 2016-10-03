@@ -4,13 +4,17 @@ module.exports = {
     fontSize: 12,
 
     // font family with optional fallbacks
-    fontFamily: 'Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
+    fontFamily: 'Hasklig, Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
 
     // `BEAM` for |, `UNDERLINE` for _, `BLOCK` for █
     cursorShape: 'BLOCK',
 
     // custom css to embed in the main window
-    css: '',
+    css: `
+      * {
+        font-feature-settings: "liga" 0;
+      }
+    `,
 
     // custom css to embed in the terminal window
     termCSS: '',
