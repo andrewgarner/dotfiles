@@ -1,3 +1,6 @@
+[submodule "tmux/plugins/tpm"]
+	path = tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
 [submodule "tmuxifier"]
 	path = tmuxifier
 	url = https://github.com/jimeh/tmuxifier.git
