@@ -16,6 +16,7 @@ brew 'archey' # for displaying system information
 brew 'aspell' # for  spell checking
 brew 'coreutils' # GNU File, Shell, and Text utilities
 brew 'direnv' # environment switcher for the shell
+brew 'gawk' # for better UTF-8 character support
 brew 'git' # for version control
 brew 'gnupg' # for encryption and signing of data and communications
 brew 'gpg-agent' # GPG key agent
