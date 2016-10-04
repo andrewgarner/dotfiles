@@ -1,5 +1,4 @@
 set -gx PATH /usr/local/bin /usr/local/sbin $PATH
-set -gx PATH $HOME/.tmuxifier/bin $PATH
 
 set -x TERM screen-256color
 set -x ALTERNATE_EDITOR ''
@@ -26,7 +25,6 @@ if status --is-interactive
   source (direnv hook fish -|psub)
   source (nodenv init -|psub)
   source (rbenv init -|psub)
-  source (tmuxifier init -|psub)
 end
 
 alias b bundle
