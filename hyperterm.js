@@ -32,6 +32,7 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
+    'hyperlinks',
     'hyperterm-tomorrow-night'
   ],
 
