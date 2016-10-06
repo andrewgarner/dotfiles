@@ -22,6 +22,8 @@ set -g -x GPG_AGENT_INFO (cut -c 16- ~/.gpg-agent-info)
 set -g -x GPG_TTY (tty)
 
 if status --is-interactive
+  eval sh $HOME/.config/base16-shell/scripts/base16-tomorrow-night.sh
+
   source (direnv hook fish -|psub)
   source (nodenv init -|psub)
   source (rbenv init -|psub)
