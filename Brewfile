@@ -18,6 +18,7 @@ brew 'coreutils' # GNU File, Shell, and Text utilities
 brew 'direnv' # environment switcher for the shell
 brew 'gawk' # for better UTF-8 character support
 brew 'git' # for version control
+brew 'git-lfs' # for version control of large files
 brew 'gnupg' # for encryption and signing of data and communications
 brew 'gpg-agent' # GPG key agent
 brew 'grc' # for colorising logfiles and command output
