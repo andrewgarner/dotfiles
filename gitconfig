@@ -36,6 +36,7 @@
 [diff]
 	tool = Kaleidoscope
 	compactionHeuristic = 1
+	mnemonicprefix = true
 
 [difftool]
 	prompt = false
