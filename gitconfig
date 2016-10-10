@@ -5,6 +5,7 @@
 	l = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	ll = log --color --stat --abbrev-commit
 	st = status --branch --short
+	begin = !git init && git add . && git commit -m "Initial\\ commit" && echo && git --no-pager show --shortstat
 	last = log -1 HEAD
 	merged = !git branch --remotes --merged origin/master | grep -v master | grep -v HEAD | sed 's/  origin\\///g'
 	remove-branch = !sh -c \"(git branch --delete --force $1 2>/dev/null || true) && git push origin :$1\" -
