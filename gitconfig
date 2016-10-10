@@ -8,6 +8,7 @@
 	cleanup = !"git branch --merged | grep -v master | grep -v \\* | xargs -n 1 git branch -d"
 	last = log -1 HEAD
 	standup = !"git log --reverse --branches --since=$(if [[ "Mon" == "$(date +%a)" ]]; then echo "last friday"; else echo "yesterday"; fi) --author=$(git config --get user.email) --format=format:'%C(cyan) %ad %C(yellow)%h %Creset %s %Cgreen%d' --date=local"
+	unstage = reset HEAD --
 
 [apply]
 	whitespace = fix
