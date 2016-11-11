@@ -41,6 +41,9 @@ brew 'awscli' # official AWS command-line interface
 # Digital Ocean tools
 brew 'doctl' # a command line tool for DigitalOcean services
 
+# Docker
+brew 'docker' # Docker for macOS
+
 # GitHub tools
 brew 'hub' # for interacting with the GitHub API
 
