@@ -82,6 +82,7 @@ brew 'qt' # for headless JavaScript testing via Capybara Webkit
 cask 'adobe-creative-cloud'
 cask 'appcleaner'
 cask 'backblaze'
+cask 'bartender'
 cask 'datagrip'
 cask 'dymo-label'
 cask 'flux'
