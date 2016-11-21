@@ -27,6 +27,7 @@
 	interactive = auto
 
 [core]
+	editor = emacsclient --tty
 	excludesfile = ~/.gitignore
 	pager = less -r
 
