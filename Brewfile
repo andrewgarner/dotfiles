@@ -89,6 +89,8 @@ brew 'erlang' # for a Erlang programming environment
 brew 'go' # for a Go programming environment
 brew 'node-build' # for installing Node.js
 brew 'nodeenv' # for managing versions of Node.js
+brew 'pyenv' # for managing versions of Python
+brew 'pyenv-virtualenv' # Pyenv plugin to manage virtualenv
 brew 'python' # for a Python programming environment
 brew 'rbenv' # for managing versions of Ruby
 brew 'rbenv-aliases' # for creating aliases for versions of Ruby

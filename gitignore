@@ -5,6 +5,7 @@ hub
 .generators
 .otto
 .rakeTasks
+.venv
 *.iml
 *.ipr
 *.iws

@@ -9,6 +9,7 @@ set -x AWS_CONFIG_FILE $HOME/.config/aws
 
 set -x GOPATH $HOME/.go
 set -x NODENV_ROOT /usr/local/var/nodenv
+set -x PYENV_ROOT /usr/local/var/pyenv
 set -x RBENV_ROOT /usr/local/var/rbenv
 
 if not begin
@@ -26,6 +27,8 @@ if status --is-interactive
 
   source (direnv hook fish -|psub)
   source (nodenv init -|psub)
+  source (pyenv init -|psub)
+  source (pyenv virtualenv-init -|psub)
   source (rbenv init -|psub)
 end
 
