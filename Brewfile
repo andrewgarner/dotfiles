@@ -128,12 +128,6 @@ cask 'transmit'
 cask 'virtualbox'
 cask 'whatsapp'
 
-# Databases
-brew 'mysql', restart_service: :changed
-brew 'postgresql', restart_service: :changed
-brew 'redis', restart_service: :changed
-brew 'sqlite'
-
 # Editors
 brew 'emacs-mac', args: %w(with-spacemacs-icon)
 
