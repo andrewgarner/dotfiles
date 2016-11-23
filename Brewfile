@@ -63,6 +63,26 @@ brew 'heroku-toolbelt' # everything needed to get started with Heroku
 # Image tools
 brew 'imagemagick' # for cropping and resizing images
 
+# macOS App Store
+mas '1Password', id: 443987910
+mas 'Amphetamine', id: 937984704
+mas 'Deckset', id: 847496013
+mas 'iA Writer', id: 775737590
+mas 'iMovie', id: 408981434
+mas 'Keynote', id: 409183694
+mas 'Kindle', id: 405399194
+mas 'Noizio', id: 928871589
+mas 'Numbers', id: 409203825
+mas 'OmniGraffle', id: 711830901
+mas 'Pages', id: 409201541
+mas 'Scapple', id: 568020055
+mas 'Slack', id: 803453959
+mas 'StuffIt Expander 16', id: 919269455
+mas 'Telegram', id: 747648890
+mas 'Tweetbot', id: 557168941
+mas 'Wallcat', id: 1000397973
+mas 'WinZip', id: 583827028
+
 # Programming languages and configuration
 brew 'elixir' # for a Elixir programming environment
 brew 'erlang' # for a Erlang programming environment
@@ -98,15 +118,12 @@ cask 'intellij-idea'
 cask 'ipvanish-vpn'
 cask 'iterm2'
 cask 'kaleidoscope'
-cask 'kindle'
-cask 'kitematic'
 cask 'logitech-myharmony'
 cask 'paparazzi'
 cask 'safari-technology-preview'
 cask 'screenhero'
 cask 'sizeup'
 cask 'skype'
-cask 'telegram'
 cask 'transmission'
 cask 'transmit'
 cask 'virtualbox'
