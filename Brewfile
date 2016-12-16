@@ -135,7 +135,7 @@ cask 'virtualbox'
 cask 'whatsapp'
 
 # Editors
-brew 'emacs-mac', args: %w(with-spacemacs-icon)
+brew 'emacs', args: %w(with-cocoa)
 
 # Fonts
 cask 'font-anonymous-pro'
