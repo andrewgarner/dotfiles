@@ -33,6 +33,7 @@ brew 'pinentry' # passphrase entry dialog
 brew 'pinentry-mac' # pinentry for GPG on Mac
 brew 'puma-dev' # to manage rack apps in development with puma
 brew 'rcm' # for managing dotfiles
+brew 'thefuck' # corrects a previous console command
 brew 'tmux' # for saving project state and switching between projects
 brew 'zopfli' # very good, but slow, deflate or zlib compression
 
