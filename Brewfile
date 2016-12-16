@@ -98,6 +98,7 @@ brew 'rbenv' # for managing versions of Ruby
 brew 'rbenv-aliases' # for creating aliases for versions of Ruby
 brew 'rbenv-default-gems' # for installing default gems with version of Ruby
 brew 'ruby-build' # for installing Rubies
+brew 'yarn' # fast, reliable, and secure dependency management for JavaScript
 
 # Testing tools
 brew 'phantomjs' # for headless WebKit scriptable testing via a JavaScript API
