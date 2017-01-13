@@ -106,6 +106,7 @@ brew 'qt' # for headless JavaScript testing via Capybara Webkit
 
 # Applications
 cask 'adobe-creative-cloud'
+cask 'aerial'
 cask 'appcleaner'
 cask 'backblaze'
 cask 'bartender'
