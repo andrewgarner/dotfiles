@@ -17,6 +17,7 @@ brew 'fish' # user-friendly command-line shell
 
 # Unix tools
 brew 'ack' # for finding things in files
+brew 'ansifilter' # for removing (or working with) ANSI codes
 brew 'archey' # for displaying system information
 brew 'aspell' # for  spell checking
 brew 'coreutils' # GNU File, Shell, and Text utilities
