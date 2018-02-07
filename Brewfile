@@ -85,7 +85,7 @@ mas 'OmniGraffle', id: 711830901
 mas 'Pages', id: 409201541
 mas 'Scapple', id: 568020055
 mas 'Slack', id: 803453959
-mas 'StuffIt Expander 16', id: 919269455
+mas 'StuffIt Expander', id: 919269455
 mas 'Telegram', id: 747648890
 mas 'Tweetbot', id: 557168941
 mas 'Wallcat', id: 1000397973
