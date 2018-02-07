@@ -129,6 +129,7 @@ cask 'appcleaner'
 cask 'backblaze'
 cask 'bartender'
 cask 'dymo-label'
+cask 'emacs'
 cask 'google-chrome'
 cask 'google-chrome-canary'
 cask 'imagealpha'
@@ -153,9 +154,6 @@ cask 'whatsapp'
 # Drivers
 cask 'garmin-express'
 cask 'logitech-myharmony'
-
-# Editors
-brew 'emacs', args: %w(with-cocoa)
 
 # Fonts
 cask 'font-anonymous-pro'
