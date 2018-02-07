@@ -38,6 +38,7 @@ brew 'keybase' # command-line interface to Keybase.io
 brew 'nginx' # HTTP server and reverse proxy
 brew 'openconnect' # VPN client for Cisco's AnyConnect VPN
 brew 'openssl' # for Transport Layer Security (TLS)
+brew 'parallel' # shell command parallelisation utility
 brew 'pinentry' # passphrase entry dialog
 brew 'pinentry-mac' # pinentry for GPG on Mac
 brew 'puma-dev' # to manage rack apps in development with puma
