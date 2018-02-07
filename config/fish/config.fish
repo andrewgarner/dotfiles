@@ -40,6 +40,8 @@ alias g git
 alias r rake
 alias git hub
 
+brew command command-not-found-init > /dev/null 2>&1; and . (brew command-not-found-init)
+
 set fish_greeting
 
 set -g __fish_git_prompt_showupstream 'yes'
