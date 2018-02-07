@@ -4,6 +4,7 @@ tap 'caskroom/cask'
 tap 'caskroom/drivers'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
+tap 'cloudfoundry/tap'
 tap 'heroku/brew'
 tap 'homebrew/bundle'
 tap 'homebrew/command-not-found'
@@ -45,6 +46,9 @@ brew 'zopfli' # very good, but slow, deflate or zlib compression
 
 # AWS tools
 brew 'awscli' # official AWS command-line interface
+
+# Cloud Foundry tools
+brew 'cf-cli' # official Cloud Foundry CLI
 
 # Digital Ocean tools
 brew 'doctl' # a command line tool for DigitalOcean services
