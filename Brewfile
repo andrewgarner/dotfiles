@@ -1,6 +1,7 @@
 cask_args appdir: '/Applications'
 
 tap 'caskroom/cask'
+tap 'caskroom/drivers'
 tap 'caskroom/homebrew-fonts'
 tap 'caskroom/homebrew-versions'
 tap 'homebrew/services'
@@ -115,7 +116,6 @@ cask 'bartender'
 cask 'dash'
 cask 'dymo-label'
 cask 'flux'
-cask 'garmin-express'
 cask 'google-chrome'
 cask 'google-chrome-canary'
 cask 'gpgtools'
@@ -124,7 +124,6 @@ cask 'imageoptim'
 cask 'ipvanish-vpn'
 cask 'jetbrains-toolbox'
 cask 'kaleidoscope'
-cask 'logitech-myharmony'
 cask 'microsoft-office'
 cask 'mongodb-compass'
 cask 'paparazzi'
@@ -136,6 +135,10 @@ cask 'transmission'
 cask 'transmit'
 cask 'virtualbox'
 cask 'whatsapp'
+
+# Drivers
+cask 'garmin-express'
+cask 'logitech-myharmony'
 
 # Editors
 brew 'emacs', args: %w(with-cocoa)
