@@ -88,6 +88,7 @@ mas 'Noizio', id: 928871589
 mas 'OmniGraffle', id: 711830901
 mas 'Parcel', id: 639968404
 mas 'Scapple', id: 568020055
+mas 'Shopify', id: 1208212036
 mas 'Slack', id: 803453959
 mas 'StuffIt Expander', id: 919269455
 mas 'Telegram', id: 747648890
