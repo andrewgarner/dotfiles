@@ -4,6 +4,7 @@ tap 'caskroom/cask'
 tap 'caskroom/drivers'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
+tap 'heroku/brew'
 tap 'homebrew/bundle'
 tap 'homebrew/command-not-found'
 tap 'homebrew/core'
@@ -65,7 +66,7 @@ cask 'vagrant' # manage development environments
 brew 'vault' # manage secrets
 
 # Heroku tools
-brew 'heroku-toolbelt' # everything needed to get started with Heroku
+brew 'heroku' # everything needed to get started with Heroku
 
 # Image tools
 brew 'imagemagick' # for cropping and resizing images
