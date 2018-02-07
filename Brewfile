@@ -58,7 +58,7 @@ brew 'doctl' # a command line tool for DigitalOcean services
 
 # Docker
 cask 'docker' # Docker for macOS
-cask 'kitematic' # visual Docker container management for macOS
+cask 'kitematic' # visual Docker container management for macOS
 
 # GitHub tools
 brew 'hub' # for interacting with the GitHub API
@@ -112,7 +112,7 @@ brew 'rbenv' # for managing versions of Ruby
 brew 'rbenv-aliases' # for creating aliases for versions of Ruby
 brew 'rbenv-default-gems' # for installing default gems with version of Ruby
 brew 'ruby-build' # for installing Rubies
-brew 'yarn' # fast, reliable, and secure dependency management for JavaScript
+brew 'yarn' # fast, reliable, and secure dependency management for JavaScript
 
 # Testing tools
 brew 'casperjs' # navigation scripting and testing utility for PhantomJS
