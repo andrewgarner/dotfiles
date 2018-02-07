@@ -74,15 +74,11 @@ brew 'imagemagick' # for cropping and resizing images
 # macOS App Store
 mas '1Password', id: 443987910
 mas 'Amphetamine', id: 937984704
-mas 'Deckset', id: 847496013
 mas 'iA Writer', id: 775737590
-mas 'iMovie', id: 408981434
 mas 'Keynote', id: 409183694
 mas 'Kindle', id: 405399194
 mas 'Noizio', id: 928871589
-mas 'Numbers', id: 409203825
 mas 'OmniGraffle', id: 711830901
-mas 'Pages', id: 409201541
 mas 'Scapple', id: 568020055
 mas 'Slack', id: 803453959
 mas 'StuffIt Expander', id: 919269455
@@ -117,9 +113,7 @@ cask 'aerial'
 cask 'appcleaner'
 cask 'backblaze'
 cask 'bartender'
-cask 'dash'
 cask 'dymo-label'
-cask 'flux'
 cask 'google-chrome'
 cask 'google-chrome-canary'
 cask 'gpgtools'
@@ -128,11 +122,9 @@ cask 'imageoptim'
 cask 'ipvanish-vpn'
 cask 'jetbrains-toolbox'
 cask 'kaleidoscope'
-cask 'microsoft-office'
 cask 'mongodb-compass'
 cask 'paparazzi'
 cask 'safari-technology-preview'
-cask 'screenhero'
 cask 'sizeup'
 cask 'skype'
 cask 'transmission'
