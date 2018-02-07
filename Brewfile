@@ -96,6 +96,7 @@ mas 'WinZip', id: 583827028
 brew 'elixir' # for a Elixir programming environment
 brew 'erlang' # for a Erlang programming environment
 brew 'go' # for a Go programming environment
+cask 'java8' # for Java 8
 brew 'node-build' # for installing Node.js
 brew 'nodeenv' # for managing versions of Node.js
 brew 'pyenv' # for managing versions of Python
