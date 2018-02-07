@@ -20,6 +20,7 @@ brew 'ack' # for finding things in files
 brew 'ansifilter' # for removing (or working with) ANSI codes
 brew 'archey' # for displaying system information
 brew 'aspell' # for  spell checking
+brew 'blackbox' # for storing secrets in Git
 brew 'coreutils' # GNU File, Shell, and Text utilities
 brew 'direnv' # environment switcher for the shell
 brew 'fpp' # for selecting files out of bash output
@@ -116,7 +117,6 @@ cask 'bartender'
 cask 'dymo-label'
 cask 'google-chrome'
 cask 'google-chrome-canary'
-cask 'gpgtools'
 cask 'imagealpha'
 cask 'imageoptim'
 cask 'ipvanish-vpn'
