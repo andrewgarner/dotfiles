@@ -104,6 +104,7 @@ brew 'yarn' # fast, reliable, and secure dependency management for JavaScript
 
 # Testing tools
 brew 'casperjs' # navigation scripting and testing utility for PhantomJS
+brew 'chromedriver' # tool for automated testing of webapps across many browsers
 brew 'phantomjs' # for headless WebKit scriptable testing via a JavaScript API
 brew 'qt' # for headless JavaScript testing via Capybara Webkit
 
