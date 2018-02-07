@@ -14,7 +14,6 @@ tap 'thoughtbot/formulae'
 
 # Shell
 brew 'fish' # user-friendly command-line shell
-brew 'gitsh' # an interactive shell for Git
 
 # Unix tools
 brew 'ack' # for finding things in files
