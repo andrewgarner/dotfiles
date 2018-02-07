@@ -24,7 +24,6 @@ set -g -x GPG_TTY (tty)
 
 if status --is-interactive
   eval sh $HOME/.config/base16-shell/scripts/base16-tomorrow-night.sh
-  eval (thefuck --alias | tr '\n' ';')
 
   source (direnv hook fish -|psub)
   source (nodenv init -|psub)
