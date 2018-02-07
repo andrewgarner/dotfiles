@@ -2,7 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'caskroom/cask'
 tap 'caskroom/drivers'
-tap 'caskroom/homebrew-fonts'
+tap 'caskroom/fonts'
 tap 'caskroom/homebrew-versions'
 tap 'homebrew/services'
 tap 'puma/puma'
