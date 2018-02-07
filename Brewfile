@@ -85,6 +85,7 @@ mas 'Keynote', id: 409183694
 mas 'Kindle', id: 405399194
 mas 'Noizio', id: 928871589
 mas 'OmniGraffle', id: 711830901
+mas 'Parcel', id: 639968404
 mas 'Scapple', id: 568020055
 mas 'Slack', id: 803453959
 mas 'StuffIt Expander', id: 919269455
