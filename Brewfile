@@ -27,6 +27,7 @@ brew 'direnv' # environment switcher for the shell
 brew 'fpp' # for selecting files out of bash output
 brew 'gawk' # for better UTF-8 character support
 brew 'git' # for version control
+brew 'git-fresh' # for keeping git repos fresh
 brew 'git-lfs' # for version control of large files
 brew 'gnupg' # for encryption and signing of data and communications
 brew 'gpg-agent' # GPG key agent
