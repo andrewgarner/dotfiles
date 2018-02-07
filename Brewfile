@@ -35,7 +35,6 @@ brew 'gpg-agent' # GPG key agent
 brew 'grc' # for colorising logfiles and command output
 brew 'httpie' # CLI HTTP client
 brew 'jq' # for command-line JSON processing
-brew 'keybase' # command-line interface to Keybase.io
 brew 'nginx' # HTTP server and reverse proxy
 brew 'openconnect' # VPN client for Cisco's AnyConnect VPN
 brew 'openssl' # for Transport Layer Security (TLS)
@@ -137,6 +136,7 @@ cask 'imageoptim'
 cask 'ipvanish-vpn'
 cask 'jetbrains-toolbox'
 cask 'kaleidoscope'
+cask 'keybase'
 cask 'mongodb-compass'
 cask 'paparazzi'
 cask 'plex-media-server'
