@@ -79,7 +79,7 @@ brew 'heroku' # everything needed to get started with Heroku
 brew 'imagemagick' # for cropping and resizing images
 
 # macOS App Store
-mas '1Password', id: 443987910
+mas '1Password 7', id: 1333542190
 mas 'Amphetamine', id: 937984704
 mas 'iA Writer', id: 775737590
 mas 'Keynote', id: 409183694
