@@ -12,16 +12,6 @@ set -x NODENV_ROOT /usr/local/var/nodenv
 set -x PYENV_ROOT /usr/local/var/pyenv
 set -x RBENV_ROOT /usr/local/var/rbenv
 
-if not begin
-    [ -f ~/.gpg-agent-info ]
-    and kill -0 (cut -d : -f 2 ~/.gpg-agent-info) ^/dev/null
-end
-    gpg-agent --daemon --no-grab --write-env-file ~/.gpg-agent-info >/dev/null ^&1
-end
-
-set -g -x GPG_AGENT_INFO (cut -c 16- ~/.gpg-agent-info)
-set -g -x GPG_TTY (tty)
-
 if status --is-interactive
   eval sh $HOME/.config/base16-shell/scripts/base16-tomorrow-night.sh
 
