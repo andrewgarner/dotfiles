@@ -34,6 +34,10 @@ brew command command-not-found-init > /dev/null 2>&1; and . (brew command-not-fo
 
 set fish_greeting
 
+set fish_function_path $fish_function_path '/usr/local/var/pyenv/versions/2.7.15/lib/python2.7/site-packages/powerline/bindings/fish'
+powerline-daemon -q
+powerline-setup
+
 set -g __fish_git_prompt_showupstream 'yes'
 set -g __fish_git_prompt_showstashstate 'yes'
 set -g __fish_git_prompt_showdirtystate 'yes'
