@@ -5,6 +5,17 @@
         "function": "powerline.segments.common.bat.battery"
       },
       {
+        "function": "powerline.segments.common.players.itunes",
+        "name": "player"
+      },
+      {
+        "function": "powerline.segments.common.wthr.weather",
+        "name": "weather",
+        "args": {
+          "location_query": "Maidenhead, United Kingdom"
+        }
+      },
+      {
         "function": "powerline.segments.common.time.date",
         "name": "date",
         "args": {
