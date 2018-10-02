@@ -44,6 +44,7 @@ brew 'puma/puma/puma-dev' # A tool to manage rack apps in development with puma
 brew 'reattach-to-user-namespace' # Reattach process (e.g., tmux) to background
 brew 'thoughtbot/formulae/rcm' # Management suite for dotfiles
 brew 'tmux' # Terminal multiplexer
+brew 'wget' # Internet file retriever
 brew 'zopfli' # New zlib (gzip, deflate) compatible compressor
 
 # Command-line interfaces
