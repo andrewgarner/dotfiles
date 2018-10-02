@@ -115,6 +115,7 @@ brew 'rbenv-aliases' # Make aliases for Ruby versions
 brew 'rbenv-default-gems' # Auto-installs gems for Ruby installs
 brew 'redis' # Persistent key-value database, with built-in net interface
 brew 'ruby-build' # for installing Rubies
+brew 'sqlite' # Command-line interface for SQLite
 brew 'yarn' # JavaScript package manager
 
 # Testing tools
