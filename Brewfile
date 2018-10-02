@@ -104,6 +104,8 @@ cask 'java8' # for Java 8
 brew 'kibana' # Analytics and search dashboard for Elasticsearch
 brew 'node-build' # Install NodeJS versions
 brew 'nodeenv' # Manage multiple NodeJS versions
+brew 'postgis' # Adds support for geographic objects to PostgreSQL
+brew 'postgresql' # Object-relational database system
 brew 'pyenv' # Python version management
 brew 'pyenv-virtualenv' # Pyenv plugin to manage virtualenv
 brew 'python@2' # for a Python 2 programming environment
