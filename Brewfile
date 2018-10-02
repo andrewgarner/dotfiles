@@ -113,6 +113,7 @@ brew 'python@3' # for a Python 3 programming environment
 brew 'rbenv' # Ruby version manager
 brew 'rbenv-aliases' # Make aliases for Ruby versions
 brew 'rbenv-default-gems' # Auto-installs gems for Ruby installs
+brew 'redis' # Persistent key-value database, with built-in net interface
 brew 'ruby-build' # for installing Rubies
 brew 'yarn' # JavaScript package manager
 
