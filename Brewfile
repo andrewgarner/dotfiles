@@ -35,7 +35,6 @@ brew 'jq' # Lightweight and flexible command-line JSON processor
 brew 'mas' # Mac App Store command-line interface
 brew 'nginx' # HTTP server and reverse proxy
 brew 'openconnect' # Open client for Cisco AnyConnect VPN
-brew 'openssl' # SSL/TLS cryptography library
 brew 'parallel' # Shell command parallelisation utility
 brew 'pass' # Password manager
 brew 'pinentry' # Passphrase entry dialog utilizing the Assuan protocol
@@ -46,6 +45,10 @@ brew 'thoughtbot/formulae/rcm' # Management suite for dotfiles
 brew 'tmux' # Terminal multiplexer
 brew 'wget' # Internet file retriever
 brew 'zopfli' # New zlib (gzip, deflate) compatible compressor
+
+# Libraries
+brew 'libyaml' # YAML Parser
+brew 'openssl' # SSL/TLS cryptography library
 
 # Command-line interfaces
 brew 'awscli' # Official Amazon AWS command-line interface
