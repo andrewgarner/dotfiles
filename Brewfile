@@ -116,7 +116,6 @@ brew 'phantomjs' # Headless WebKit scriptable with a JavaScript API
 brew 'qt' # Cross-platform application and UI framework
 
 # Applications
-cask 'adobe-creative-cloud'
 cask 'aerial'
 cask 'alfred'
 cask 'appcleaner'
