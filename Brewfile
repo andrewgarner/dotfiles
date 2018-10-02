@@ -55,7 +55,6 @@ brew 'hub' # Add GitHub support to git on the command-line
 
 # Docker
 cask 'docker' # Docker for macOS
-cask 'kitematic' # visual Docker container management for macOS
 
 # HashiCorp tools
 brew 'consul' # Tool for service discovery, monitoring and configuration
