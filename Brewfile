@@ -15,68 +15,69 @@ tap 'puma/puma'
 tap 'thoughtbot/formulae'
 
 # Shell
-brew 'fish' # user-friendly command-line shell
+brew 'fish' # User-friendly command-line shell for UNIX-like operating systems
 
 # Unix tools
-brew 'ack' # for finding things in files
-brew 'ansifilter' # for removing (or working with) ANSI codes
-brew 'archey' # for displaying system information
-brew 'aspell' # for  spell checking
-brew 'blackbox' # for storing secrets in Git
+brew 'ack' # Search tool like grep, but optimized for programmers
+brew 'ansible' # Automate deployment, configuration, and upgrading
+brew 'ansifilter' # Strip or convert ANSI codes into HTML, (La)Tex, RTF, or BBCode
+brew 'archey' # Graphical system information display for macOS
+brew 'aspell' # Spell checker with better logic than ispell
+brew 'blackbox' # Safely store secrets in Git/Mercurial/Subversion
 brew 'coreutils' # GNU File, Shell, and Text utilities
-brew 'direnv' # environment switcher for the shell
-brew 'fpp' # for selecting files out of bash output
-brew 'gawk' # for better UTF-8 character support
-brew 'git' # for version control
-brew 'git-fresh' # for keeping git repos fresh
-brew 'git-lfs' # for version control of large files
-brew 'gnupg' # for encryption and signing of data and communications
+brew 'direnv' # Load/unload environment variables based on $PWD
+brew 'fpp' # CLI program that accepts piped input and presents files for selection
+brew 'gawk' # GNU awk utility
+brew 'git' # Distributed revision control system
+brew 'git-fresh' # Utility to keep git repos fresh
+brew 'git-lfs' # Git extension for versioning large files
+brew 'gnupg' # GNU Pretty Good Privacy (PGP) package
 brew 'gpg-agent' # GPG key agent
-brew 'grc' # for colorising logfiles and command output
-brew 'httpie' # CLI HTTP client
-brew 'jq' # for command-line JSON processing
+brew 'grc' # Colorise logfiles and command output
+brew 'httpie' # User-friendly cURL replacement (command-line HTTP client)
+brew 'jq' # Lightweight and flexible command-line JSON processor
 brew 'nginx' # HTTP server and reverse proxy
-brew 'openconnect' # VPN client for Cisco's AnyConnect VPN
-brew 'openssl' # for Transport Layer Security (TLS)
-brew 'parallel' # shell command parallelisation utility
-brew 'pass' # password manager
-brew 'pinentry' # passphrase entry dialog
-brew 'pinentry-mac' # pinentry for GPG on Mac
-brew 'puma-dev' # to manage rack apps in development with puma
-brew 'rcm' # for managing dotfiles
-brew 'tmux' # for saving project state and switching between projects
-brew 'zopfli' # very good, but slow, deflate or zlib compression
+brew 'openconnect' # Open client for Cisco AnyConnect VPN
+brew 'openssl' # SSL/TLS cryptography library
+brew 'parallel' # Shell command parallelisation utility
+brew 'pass' # Password manager
+brew 'pinentry' # Passphrase entry dialog utilizing the Assuan protocol
+brew 'pinentry-mac' # Pinentry for GPG on Mac
+brew 'puma/puma/puma-dev' # A tool to manage rack apps in development with puma
+brew 'thoughtbot/formulae/rcm' # Management suite for dotfiles
+brew 'tmux' # Terminal multiplexer
+brew 'zopfli' # New zlib (gzip, deflate) compatible compressor
 
 # AWS tools
-brew 'awscli' # official AWS command-line interface
+brew 'awscli' # Official Amazon AWS command-line interface
 
 # Cloud Foundry tools
-brew 'cf-cli' # official Cloud Foundry CLI
+brew 'cf-cli' # Official Cloud Foundry command-line interface
 
 # Digital Ocean tools
-brew 'doctl' # a command line tool for DigitalOcean services
+brew 'doctl' # Command-line tool for DigitalOcean
 
 # Docker
 cask 'docker' # Docker for macOS
 cask 'kitematic' # visual Docker container management for macOS
 
 # GitHub tools
-brew 'hub' # for interacting with the GitHub API
+brew 'hub' # Add GitHub support to git on the command-line
 
 # HashiCorp tools
-brew 'consul' # service discovery and configuration
-brew 'nomad' # deploy applications
-brew 'packer' # create images for the cloud
-brew 'serf' # cluster membership, failure detection and orchestration
-brew 'terraform' # manage cloud infrastructure
-cask 'vagrant' # manage development environments
-brew 'vault' # manage secrets
+brew 'consul' # Tool for service discovery, monitoring and configuration
+brew 'nomad' # Distributed, Highly Available, Datacenter-Aware Scheduler
+brew 'packer' # Tool for creating identical machine images for multiple platforms
+brew 'serf' # Service orchestration and management tool
+brew 'terraform' # Tool to build, change, and version infrastructure
+cask 'vagrant' # Tool for building and managing virtual machine environments
+brew 'vault' # Secures, stores, and tightly controls access to secrets
 
 # Heroku tools
-brew 'heroku' # everything needed to get started with Heroku
+brew 'heroku' # Everything you need to get started with Heroku
 
 # Image tools
-brew 'imagemagick' # for cropping and resizing images
+brew 'imagemagick' # Tools and libraries to manipulate images in many formats
 
 # macOS App Store
 mas '1Password 7', id: 1333542190
@@ -97,27 +98,27 @@ mas 'Wallcat', id: 1000397973
 mas 'WinZip', id: 583827028
 
 # Programming languages and configuration
-brew 'elixir' # for a Elixir programming environment
+brew 'elixir' # Functional metaprogramming aware language built on Erlang VM
 brew 'erlang' # for a Erlang programming environment
-brew 'go' # for a Go programming environment
+brew 'go' # Open source programming language to build simple/reliable/efficient software
 cask 'java8' # for Java 8
-brew 'node-build' # for installing Node.js
-brew 'nodeenv' # for managing versions of Node.js
-brew 'pyenv' # for managing versions of Python
+brew 'node-build' # Install NodeJS versions
+brew 'nodeenv' # Manage multiple NodeJS versions
+brew 'pyenv' # Python version management
 brew 'pyenv-virtualenv' # Pyenv plugin to manage virtualenv
 brew 'python@2' # for a Python 2 programming environment
 brew 'python@3' # for a Python 3 programming environment
-brew 'rbenv' # for managing versions of Ruby
-brew 'rbenv-aliases' # for creating aliases for versions of Ruby
-brew 'rbenv-default-gems' # for installing default gems with version of Ruby
+brew 'rbenv' # Ruby version manager
+brew 'rbenv-aliases' # Make aliases for Ruby versions
+brew 'rbenv-default-gems' # Auto-installs gems for Ruby installs
 brew 'ruby-build' # for installing Rubies
-brew 'yarn' # fast, reliable, and secure dependency management for JavaScript
+brew 'yarn' # JavaScript package manager
 
 # Testing tools
 brew 'casperjs' # navigation scripting and testing utility for PhantomJS
-brew 'chromedriver' # tool for automated testing of webapps across many browsers
-brew 'phantomjs' # for headless WebKit scriptable testing via a JavaScript API
-brew 'qt' # for headless JavaScript testing via Capybara Webkit
+brew 'chromedriver' # Tool for automated testing of webapps across many browsers
+brew 'phantomjs' # Headless WebKit scriptable with a JavaScript API
+brew 'qt' # Cross-platform application and UI framework
 
 # Applications
 cask 'adobe-creative-cloud'
