@@ -32,6 +32,7 @@ brew 'gpg-agent' # GPG key agent
 brew 'grc' # Colorise logfiles and command output
 brew 'httpie' # User-friendly cURL replacement (command-line HTTP client)
 brew 'jq' # Lightweight and flexible command-line JSON processor
+brew 'mas' # Mac App Store command-line interface
 brew 'nginx' # HTTP server and reverse proxy
 brew 'openconnect' # Open client for Cisco AnyConnect VPN
 brew 'openssl' # SSL/TLS cryptography library
