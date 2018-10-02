@@ -82,6 +82,7 @@ brew 'imagemagick' # Tools and libraries to manipulate images in many formats
 # macOS App Store
 mas '1Password 7', id: 1333542190
 mas 'Amphetamine', id: 937984704
+mas 'Fusion360', id: 868968810
 mas 'iA Writer', id: 775737590
 mas 'Keynote', id: 409183694
 mas 'Kindle', id: 405399194
