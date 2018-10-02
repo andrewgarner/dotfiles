@@ -1,16 +1,12 @@
 cask_args appdir: '/Applications'
 
-tap 'caskroom/cask'
-tap 'caskroom/drivers'
-tap 'caskroom/fonts'
-tap 'caskroom/versions'
+tap 'homebrew/cask-drivers' # Casks of drivers
+tap 'homebrew/cask-fonts' # Casks of fonts
+tap 'homebrew/cask-versions' # Alternate versions of Casks
+tap 'homebrew/command-not-found' # Reproduces Ubuntu’s command-not-found
+
 tap 'cloudfoundry/tap'
 tap 'heroku/brew'
-tap 'homebrew/bundle'
-tap 'homebrew/command-not-found'
-tap 'homebrew/core'
-tap 'homebrew/command-not-found'
-tap 'homebrew/services'
 tap 'puma/puma'
 tap 'thoughtbot/formulae'
 
@@ -52,7 +48,7 @@ brew 'zopfli' # New zlib (gzip, deflate) compatible compressor
 brew 'awscli' # Official Amazon AWS command-line interface
 
 # Cloud Foundry tools
-brew 'cf-cli' # Official Cloud Foundry command-line interface
+brew 'cloudfoundry/tap/cf-cli' # Official Cloud Foundry command-line interface
 
 # Digital Ocean tools
 brew 'doctl' # Command-line tool for DigitalOcean
@@ -74,7 +70,7 @@ cask 'vagrant' # Tool for building and managing virtual machine environments
 brew 'vault' # Secures, stores, and tightly controls access to secrets
 
 # Heroku tools
-brew 'heroku' # Everything you need to get started with Heroku
+brew 'heroku/brew/heroku' # Everything you need to get started with Heroku
 
 # Image tools
 brew 'imagemagick' # Tools and libraries to manipulate images in many formats
