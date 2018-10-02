@@ -95,11 +95,13 @@ mas 'Tweetbot', id: 1384080005
 mas 'Wallcat', id: 1000397973
 mas 'WinZip', id: 583827028
 
-# Programming languages and configuration
+# Programming languages, configuration and infrastructure
+brew 'elasticsearch' # Distributed search & analytics engine
 brew 'elixir' # Functional metaprogramming aware language built on Erlang VM
 brew 'erlang' # for a Erlang programming environment
 brew 'go' # Open source programming language to build simple/reliable/efficient software
 cask 'java8' # for Java 8
+brew 'kibana' # Analytics and search dashboard for Elasticsearch
 brew 'node-build' # Install NodeJS versions
 brew 'nodeenv' # Manage multiple NodeJS versions
 brew 'pyenv' # Python version management
