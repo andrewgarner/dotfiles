@@ -113,7 +113,6 @@ brew 'sqlite' # Command-line interface for SQLite
 brew 'yarn' # JavaScript package manager
 
 # Testing tools
-brew 'casperjs' # navigation scripting and testing utility for PhantomJS
 brew 'chromedriver' # Tool for automated testing of webapps across many browsers
 brew 'phantomjs' # Headless WebKit scriptable with a JavaScript API
 brew 'qt' # Cross-platform application and UI framework
