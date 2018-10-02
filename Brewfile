@@ -41,6 +41,7 @@ brew 'pass' # Password manager
 brew 'pinentry' # Passphrase entry dialog utilizing the Assuan protocol
 brew 'pinentry-mac' # Pinentry for GPG on Mac
 brew 'puma/puma/puma-dev' # A tool to manage rack apps in development with puma
+brew 'reattach-to-user-namespace' # Reattach process (e.g., tmux) to background
 brew 'thoughtbot/formulae/rcm' # Management suite for dotfiles
 brew 'tmux' # Terminal multiplexer
 brew 'zopfli' # New zlib (gzip, deflate) compatible compressor
