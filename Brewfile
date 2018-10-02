@@ -46,21 +46,16 @@ brew 'thoughtbot/formulae/rcm' # Management suite for dotfiles
 brew 'tmux' # Terminal multiplexer
 brew 'zopfli' # New zlib (gzip, deflate) compatible compressor
 
-# AWS tools
+# Command-line interfaces
 brew 'awscli' # Official Amazon AWS command-line interface
-
-# Cloud Foundry tools
 brew 'cloudfoundry/tap/cf-cli' # Official Cloud Foundry command-line interface
-
-# Digital Ocean tools
 brew 'doctl' # Command-line tool for DigitalOcean
+brew 'heroku/brew/heroku' # Everything you need to get started with Heroku
+brew 'hub' # Add GitHub support to git on the command-line
 
 # Docker
 cask 'docker' # Docker for macOS
 cask 'kitematic' # visual Docker container management for macOS
-
-# GitHub tools
-brew 'hub' # Add GitHub support to git on the command-line
 
 # HashiCorp tools
 brew 'consul' # Tool for service discovery, monitoring and configuration
@@ -70,9 +65,6 @@ brew 'serf' # Service orchestration and management tool
 brew 'terraform' # Tool to build, change, and version infrastructure
 cask 'vagrant' # Tool for building and managing virtual machine environments
 brew 'vault' # Secures, stores, and tightly controls access to secrets
-
-# Heroku tools
-brew 'heroku/brew/heroku' # Everything you need to get started with Heroku
 
 # Image tools
 brew 'imagemagick' # Tools and libraries to manipulate images in many formats
