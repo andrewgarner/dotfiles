@@ -1,3 +1,4 @@
+# coding: utf-8
 cask_args appdir: '/Applications'
 
 tap 'homebrew/cask-drivers' # Casks of drivers
