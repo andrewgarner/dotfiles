@@ -60,15 +60,6 @@ brew 'hub' # Add GitHub support to git on the command-line
 # Docker
 cask 'docker' # Docker for macOS
 
-# HashiCorp tools
-brew 'consul' # Tool for service discovery, monitoring and configuration
-brew 'nomad' # Distributed, Highly Available, Datacenter-Aware Scheduler
-brew 'packer' # Tool for creating identical machine images for multiple platforms
-brew 'serf' # Service orchestration and management tool
-brew 'terraform' # Tool to build, change, and version infrastructure
-cask 'vagrant' # Tool for building and managing virtual machine environments
-brew 'vault' # Secures, stores, and tightly controls access to secrets
-
 # Image tools
 brew 'imagemagick' # Tools and libraries to manipulate images in many formats
 
