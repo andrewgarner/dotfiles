@@ -15,36 +15,17 @@ tap 'thoughtbot/formulae'
 brew 'fish' # User-friendly command-line shell for UNIX-like operating systems
 
 # Unix tools
-brew 'ack' # Search tool like grep, but optimized for programmers
-brew 'ansible' # Automate deployment, configuration, and upgrading
-brew 'ansifilter' # Strip or convert ANSI codes into HTML, (La)Tex, RTF, or BBCode
-brew 'archey' # Graphical system information display for macOS
-brew 'aspell' # Spell checker with better logic than ispell
-brew 'blackbox' # Safely store secrets in Git/Mercurial/Subversion
-brew 'coreutils' # GNU File, Shell, and Text utilities
 brew 'direnv' # Load/unload environment variables based on $PWD
-brew 'fpp' # CLI program that accepts piped input and presents files for selection
-brew 'gawk' # GNU awk utility
 brew 'git' # Distributed revision control system
 brew 'git-fresh' # Utility to keep git repos fresh
 brew 'git-lfs' # Git extension for versioning large files
 brew 'gnupg' # GNU Pretty Good Privacy (PGP) package
 brew 'gpg-agent' # GPG key agent
-brew 'grc' # Colorise logfiles and command output
-brew 'httpie' # User-friendly cURL replacement (command-line HTTP client)
-brew 'jq' # Lightweight and flexible command-line JSON processor
-brew 'mas' # Mac App Store command-line interface
-brew 'openconnect' # Open client for Cisco AnyConnect VPN
-brew 'parallel' # Shell command parallelisation utility
-brew 'pass' # Password manager
 brew 'pinentry' # Passphrase entry dialog utilizing the Assuan protocol
 brew 'pinentry-mac' # Pinentry for GPG on Mac
-brew 'puma/puma/puma-dev' # A tool to manage rack apps in development with puma
 brew 'reattach-to-user-namespace' # Reattach process (e.g., tmux) to background
 brew 'thoughtbot/formulae/rcm' # Management suite for dotfiles
 brew 'tmux' # Terminal multiplexer
-brew 'wget' # Internet file retriever
-brew 'zopfli' # New zlib (gzip, deflate) compatible compressor
 
 # Libraries
 brew 'libyaml' # YAML Parser
