@@ -5,7 +5,9 @@ My prefs and settings.
 
 ## Installation
 
+```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/andrewgarner/dotfiles/master/install.sh)"
+```
 
 
 ## Authors
