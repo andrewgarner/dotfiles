@@ -6,6 +6,7 @@ set -x EDITOR 'emacsclient -t'
 set -x VISUAL 'emacsclient -c -a emacs'
 
 set -x AWS_CONFIG_FILE $HOME/.config/aws
+set -x HOMEBREW_NO_ANALYTICS 1
 
 set -x GOPATH $HOME/.go
 set -x NODENV_ROOT /usr/local/var/nodenv
