@@ -18,6 +18,9 @@ brew "starship"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
 
+# Homebrew, but with Docker images
+brew "whalebrew"
+
 cask "aerial"
 cask "alfred"
 cask "autodesk-fusion360"
