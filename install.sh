@@ -11,6 +11,9 @@ stow bash
 echo "Installing Brew dotfiles"
 stow brew
 
+echo "Installing Visual Studio Code settings"
+stow -t "$HOME/Library/Application Support/Code/User" code
+
 echo "Installing Fish shell dotfiles"
 stow fish
 

@@ -18,6 +18,7 @@ brew "starship"
 brew "stow"
 
 cask "docker"
+cask "visual-studio-code"
 
 mas "1Password 7", id: 1333542190
 mas "GarageBand", id: 682658836

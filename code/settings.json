@@ -1,0 +1,15 @@
+{
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "files.associations": {
+    ".Brewfile": "ruby"
+  },
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "telemetry.enableTelemetry": false,
+  "terminal.integrated.fontSize": 13,
+  "workbench.colorTheme": "Base16 Tomorrow Night Dark"
+}
