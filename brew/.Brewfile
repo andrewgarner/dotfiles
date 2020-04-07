@@ -55,3 +55,5 @@ mas "Slack", id: 803453959
 mas "Trello", id: 1278508951
 mas "Wallcat", id: 1000397973
 mas "Xcode", id: 497799835
+
+whalebrew "whalebrew/imagemagick"
