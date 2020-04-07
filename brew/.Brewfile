@@ -42,6 +42,7 @@ mas "Amphetamine", id: 937984704
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
+mas "LG Screen Manager", id: 1142051783
 mas "Noizio", id: 928871589
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
