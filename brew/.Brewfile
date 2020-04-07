@@ -22,6 +22,7 @@ cask "docker"
 cask "visual-studio-code"
 
 mas "1Password 7", id: 1333542190
+mas "Amphetamine", id: 937984704
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
