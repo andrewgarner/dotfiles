@@ -58,6 +58,8 @@ mas "Xcode", id: 497799835
 
 whalebrew "whalebrew/imagemagick"
 whalebrew "whalebrew/jq"
+whalebrew "whalebrew/node"
+whalebrew "whalebrew/npm"
 whalebrew "whalebrew/packer"
 whalebrew "whalebrew/plantuml"
 whalebrew "whalebrew/terraform"
