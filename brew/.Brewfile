@@ -18,6 +18,7 @@ brew "starship"
 brew "stow"
 
 cask "aerial"
+cask "alfred"
 cask "autodesk-fusion360"
 cask "backblaze"
 cask "docker"
