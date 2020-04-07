@@ -10,5 +10,7 @@ if command -v starship > /dev/null; then
 fi
 
 # Aliases
+alias d="docker"
+alias dc="docker-compose"
 alias g="git"
 alias git="hub"

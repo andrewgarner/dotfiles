@@ -10,5 +10,7 @@ if command -qv starship
 end
 
 # Aliases
+alias d docker
+alias dc docker-compose
 alias g "git"
 alias git "hub"
