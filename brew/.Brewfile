@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
 tap "homebrew/core"
 
 # Distributed revision control system
@@ -22,6 +23,7 @@ cask "alfred"
 cask "autodesk-fusion360"
 cask "backblaze"
 cask "docker"
+cask "dymo-label"
 cask "postman"
 cask "visual-studio-code"
 cask "vlc"
