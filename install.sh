@@ -2,6 +2,9 @@
 
 set -e
 
+echo "Installing Base16 shell dotfiles"
+stow base16-shell
+
 echo "Installing Bash dotfiles"
 stow bash
 
