@@ -20,6 +20,7 @@ brew "stow"
 cask "autodesk-fusion360"
 cask "backblaze"
 cask "docker"
+cask "postman"
 cask "visual-studio-code"
 cask "whatsapp"
 
