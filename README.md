@@ -3,10 +3,17 @@
 My prefs and settings.
 
 
+## Dependencies
+
+- [GNU Stow](https://www.gnu.org/software/stow/)
+
+
 ## Installation
 
 ```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/andrewgarner/dotfiles/master/install.sh)"
+git clone --recurse-submodules https://github.com/andrewgarner/dotfiles.git ~/dotfiles
+cd ~/dotfiles
+./install.sh
 ```
 
 
@@ -17,4 +24,4 @@ My prefs and settings.
 
 ## Copyright
 
-© 2016 Andrew Garner. See [LICENSE](LICENSE.md) for details.
+© 2020 Andrew Garner. See [LICENSE](LICENSE.md) for details.
