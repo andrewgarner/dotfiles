@@ -17,6 +17,7 @@ brew "starship"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
 
+cask "autodesk-fusion360"
 cask "docker"
 cask "visual-studio-code"
 
