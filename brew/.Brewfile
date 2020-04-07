@@ -2,6 +2,12 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 
+# Distributed revision control system
+brew "git"
+
+# Add GitHub support to git on the command-line
+brew "hub"
+
 # Mac App Store command-line interface
 brew "mas"
 

@@ -8,3 +8,7 @@ end
 if command -qv starship
   starship init fish | source
 end
+
+# Aliases
+alias g "git"
+alias git "hub"

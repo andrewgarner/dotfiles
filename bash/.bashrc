@@ -8,3 +8,7 @@ BASE16_SHELL="$HOME/.config/base16-shell/"
 if command -v starship > /dev/null; then
   eval "$(starship init bash)"
 fi
+
+# Aliases
+alias g="git"
+alias git="hub"

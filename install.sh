@@ -14,6 +14,9 @@ stow brew
 echo "Installing Fish shell dotfiles"
 stow fish
 
+echo "Installing Git dotfiles"
+stow git
+
 echo "Installing Ion shell dotfiles"
 stow ion
 
