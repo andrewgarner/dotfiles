@@ -5,6 +5,9 @@ tap "homebrew/core"
 # Mac App Store command-line interface
 brew "mas"
 
+# The cross-shell prompt for astronauts
+brew "starship"
+
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
 
