@@ -38,6 +38,7 @@ mas "Keynote", id: 409183694
 mas "Noizio", id: 928871589
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Post-it®", id: 1475777828
 mas "Slack", id: 803453959
 mas "Trello", id: 1278508951
 mas "Wallcat", id: 1000397973
