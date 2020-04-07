@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
 tap "homebrew/core"
 
 # Distributed revision control system
@@ -29,6 +30,7 @@ cask "docker"
 cask "dymo-label"
 cask "figma"
 cask "firefox-developer-edition"
+cask "font-jetbrains-mono"
 cask "gpg-suite"
 cask "jabra-direct"
 cask "keybase"
