@@ -27,5 +27,6 @@ mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Trello", id: 1278508951
 mas "Wallcat", id: 1000397973
 mas "Xcode", id: 497799835
