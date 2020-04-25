@@ -25,6 +25,7 @@ brew "stow"
 # Homebrew, but with Docker images
 brew "whalebrew"
 
+cask "3dconnexion"
 cask "aerial"
 cask "alfred"
 cask "autodesk-fusion360"
