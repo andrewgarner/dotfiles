@@ -25,6 +25,7 @@ brew "stow"
 # Homebrew, but with Docker images
 brew "whalebrew"
 
+cask "1password"
 cask "3dconnexion"
 cask "aerial"
 cask "alfred"
@@ -49,7 +50,6 @@ cask "vlc"
 cask "whatsapp"
 cask "zoomus"
 
-mas "1Password 7", id: 1333542190
 mas "Amphetamine", id: 937984704
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
