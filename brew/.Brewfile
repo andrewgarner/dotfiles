@@ -4,6 +4,9 @@ tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
+
 # Distributed revision control system
 brew "git"
 
