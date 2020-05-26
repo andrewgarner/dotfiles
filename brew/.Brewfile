@@ -4,6 +4,9 @@ tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
+
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 
