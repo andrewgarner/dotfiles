@@ -11,8 +11,10 @@ stow bash
 echo "Installing Brew dotfiles"
 stow brew
 
-echo "Installing Visual Studio Code settings"
-stow -t "$HOME/Library/Application Support/Code/User" code
+if [ "$(uname)" == "Darwin" ]; then
+  echo "Installing Visual Studio Code settings"
+  stow -t "$HOME/Library/Application Support/Code/User" code
+fi
 
 echo "Installing Fish shell dotfiles"
 stow fish
