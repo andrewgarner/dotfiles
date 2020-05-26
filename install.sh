@@ -8,8 +8,10 @@ stow base16-shell
 echo "Installing Bash dotfiles"
 stow bash
 
-echo "Installing Brew dotfiles"
-stow brew
+if [ "$(uname)" == "Darwin" ]; then
+  echo "Installing Brew dotfiles"
+  stow brew
+fi
 
 if [ "$(uname)" == "Darwin" ]; then
   echo "Installing Visual Studio Code settings"
