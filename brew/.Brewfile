@@ -31,6 +31,9 @@ brew "starship"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
 
+# Simplified and community-driven man pages
+brew "tldr"
+
 # Homebrew, but with Docker images
 brew "whalebrew"
 
