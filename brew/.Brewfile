@@ -7,6 +7,9 @@ tap "homebrew/core"
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 
