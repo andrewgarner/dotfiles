@@ -16,6 +16,9 @@ brew "fish"
 # Distributed revision control system
 brew "git"
 
+# Improved top (interactive process viewer)
+brew "htop"
+
 # Add GitHub support to git on the command-line
 brew "hub"
 
