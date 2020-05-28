@@ -34,6 +34,9 @@ brew "stow"
 # Simplified and community-driven man pages
 brew "tldr"
 
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+
 # Homebrew, but with Docker images
 brew "whalebrew"
 
