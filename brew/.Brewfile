@@ -4,6 +4,9 @@ tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 
+# Extendable version manager with support for Ruby, Node.js, Erlang & more
+brew "asdf"
+
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 
@@ -86,8 +89,6 @@ mas "Xcode", id: 497799835
 
 whalebrew "whalebrew/imagemagick"
 whalebrew "whalebrew/jq"
-whalebrew "whalebrew/node"
-whalebrew "whalebrew/npm"
 whalebrew "whalebrew/packer"
 whalebrew "whalebrew/plantuml"
 whalebrew "whalebrew/terraform"

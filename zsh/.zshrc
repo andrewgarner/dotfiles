@@ -1,3 +1,6 @@
+# asdf-vm
+. $(brew --prefix asdf)/asdf.sh
+
 # Base16 Shell
 BASE16_SHELL="$HOME/.config/base16-shell/"
 [ -n "$PS1" ] && \

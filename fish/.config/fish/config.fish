@@ -5,6 +5,9 @@ if not functions -q fisher
     fish -c fisher
 end
 
+# asdf-vm
+source (brew --prefix asdf)/asdf.fish
+
 # Base16 Shell
 if status --is-interactive
     set BASE16_SHELL "$HOME/.config/base16-shell/"
