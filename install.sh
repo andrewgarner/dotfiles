@@ -2,6 +2,9 @@
 
 set -e
 
+echo "Installing asdf dotfiles"
+stow asdf
+
 echo "Installing Base16 shell dotfiles"
 stow base16-shell
 
