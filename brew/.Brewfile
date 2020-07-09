@@ -5,6 +5,9 @@ tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
+
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
 brew "asdf"
 
