@@ -1,3 +1,4 @@
+tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
@@ -42,6 +43,9 @@ brew "tree"
 
 # Homebrew, but with Docker images
 brew "whalebrew"
+
+# Everything you need to get started with Heroku
+brew "heroku/brew/heroku"
 
 cask "1password"
 cask "3dconnexion"
