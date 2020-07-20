@@ -41,6 +41,9 @@ brew "starship"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
 
+# Tool to build, change, and version infrastructure
+brew "terraform"
+
 # Simplified and community-driven man pages
 brew "tldr"
 
@@ -106,5 +109,4 @@ whalebrew "whalebrew/imagemagick"
 whalebrew "whalebrew/jq"
 whalebrew "whalebrew/packer"
 whalebrew "whalebrew/plantuml"
-whalebrew "whalebrew/terraform"
 whalebrew "whalebrew/yq"
