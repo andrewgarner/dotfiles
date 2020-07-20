@@ -11,6 +11,9 @@ brew "openssl@1.1"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
 brew "asdf"
 
+# Official Amazon AWS command-line interface
+brew "awscli"
+
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 
