@@ -1,3 +1,4 @@
+tap "hashicorp/tap"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -52,6 +53,9 @@ brew "tree"
 
 # Homebrew, but with Docker images
 brew "whalebrew"
+
+# Terraform Language Server
+brew "hashicorp/tap/terraform-ls"
 
 # Everything you need to get started with Heroku
 brew "heroku/brew/heroku"
