@@ -133,6 +133,10 @@
 [merge]
 	tool = Visual Studio Code
 
+[merge "npm-merge-driver"]
+	name = Automatically merge Node Package Manager lockfiles
+	driver = npx npm-merge-driver merge %A %O %B %P
+
 [mergetool "Visual Studio Code"]
 	cmd = code --wait --diff $LOCAL $REMOTE
 

@@ -1,2 +1,6 @@
 # Automatically normalise line endings for all text-based files
 * text=auto
+
+# Automatically merge Node Package Manager lockfiles
+npm-shrinkwrap.json merge=npm-merge-driver
+package-lock.json merge=npm-merge-driver
