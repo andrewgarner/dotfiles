@@ -4,3 +4,6 @@
 # Automatically merge Node Package Manager lockfiles
 npm-shrinkwrap.json merge=npm-merge-driver
 package-lock.json merge=npm-merge-driver
+
+# Automatically merge yarn lockfiles
+yarn.json merge=yarn-merge-driver
