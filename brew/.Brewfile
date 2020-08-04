@@ -1,4 +1,5 @@
 tap "adoptopenjdk/openjdk"
+tap "fundingcircle/floss"
 tap "hashicorp/tap"
 tap "heroku/brew"
 tap "homebrew/bundle"
@@ -54,6 +55,9 @@ brew "tree"
 
 # Homebrew, but with Docker images
 brew "whalebrew"
+
+# Tool for C4 software architecture diagrams
+brew "fundingcircle/floss/fc4"
 
 # Terraform Language Server
 brew "hashicorp/tap/terraform-ls"
