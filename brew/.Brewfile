@@ -1,3 +1,4 @@
+tap "adoptopenjdk/openjdk"
 tap "hashicorp/tap"
 tap "heroku/brew"
 tap "homebrew/bundle"
@@ -62,6 +63,7 @@ brew "heroku/brew/heroku"
 
 cask "1password"
 cask "3dconnexion"
+cask "adoptopenjdk11-jre"
 cask "aerial"
 cask "alfred"
 cask "autodesk-fusion360"
