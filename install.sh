@@ -16,11 +16,6 @@ if [ "$(uname)" == "Darwin" ]; then
   stow brew
 fi
 
-if [ "$(uname)" == "Darwin" ]; then
-  echo "Installing Visual Studio Code settings"
-  stow -t "$HOME/Library/Application Support/Code/User" code
-fi
-
 echo "Installing Fish shell dotfiles"
 stow fish
 
