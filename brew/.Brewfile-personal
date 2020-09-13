@@ -1,0 +1,22 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/core"
+
+cask "3dconnexion"
+cask "autodesk-fusion360"
+cask "backblaze"
+cask "dymo-label"
+cask "folding-at-home"
+cask "fujitsu-scansnap-home"
+cask "garmin-express"
+cask "grammarly"
+cask "hey"
+cask "jabra-direct"
+cask "kindle"
+cask "sketchup-pro"
+cask "whatsapp"
+
+mas "Grammarly for Safari", id: 1462114288
+mas "LG Screen Manager", id: 1142051783
+mas "Save to Pocket", id: 1477385213

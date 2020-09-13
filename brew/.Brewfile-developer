@@ -1,0 +1,98 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+tap "homebrew/services"
+
+tap "adoptopenjdk/openjdk"
+tap "fundingcircle/floss"
+tap "hashicorp/tap"
+tap "heroku/brew"
+
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
+
+# Extendable version manager with support for Ruby, Node.js, Erlang & more
+brew "asdf"
+
+# Official Amazon AWS command-line interface
+brew "awscli"
+
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
+
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
+
+# Distributed revision control system
+brew "git"
+
+# Improved top (interactive process viewer)
+brew "htop"
+
+# Add GitHub support to git on the command-line
+brew "hub"
+
+# Mac App Store command-line interface
+brew "mas"
+
+# The cross-shell prompt for astronauts
+brew "starship"
+
+# Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"
+
+# Tool to build, change, and version infrastructure
+brew "terraform"
+
+# Simplified and community-driven man pages
+brew "tldr"
+
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+
+# Homebrew, but with Docker images
+brew "whalebrew"
+
+# Tool for C4 software architecture diagrams
+brew "fundingcircle/floss/fc4"
+
+# Terraform Language Server
+brew "hashicorp/tap/terraform-ls"
+
+# Everything you need to get started with Heroku
+brew "heroku/brew/heroku"
+
+cask "adoptopenjdk11-jre"
+cask "chromium"
+cask "dash"
+cask "docker"
+cask "drawio"
+cask "figma"
+cask "firefox-developer-edition"
+cask "font-jetbrains-mono"
+cask "google-cloud-sdk"
+cask "gpg-suite"
+cask "jetbrains-toolbox"
+cask "keybase"
+cask "kitty"
+cask "notion"
+cask "pluralsight"
+cask "postman"
+cask "powershell"
+cask "sketch"
+cask "visual-studio-code"
+
+mas "Post-it®", id: 1475777828
+mas "Slack", id: 803453959
+mas "Trello", id: 1278508951
+mas "Xcode", id: 497799835
+
+whalebrew "whalebrew/imagemagick"
+whalebrew "whalebrew/jq"
+whalebrew "whalebrew/plantuml"
+whalebrew "whalebrew/yq"
