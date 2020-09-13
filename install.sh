@@ -13,7 +13,7 @@ stow bash
 
 if [ "$(uname)" == "Darwin" ]; then
   echo "Installing Brew dotfiles"
-  stow brew
+  stow brew --ignore='.*\.lock.json'
 fi
 
 echo "Installing Fish shell dotfiles"
