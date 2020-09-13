@@ -87,11 +87,6 @@ cask "powershell"
 cask "sketch"
 cask "visual-studio-code"
 
-mas "Post-it®", id: 1475777828
-mas "Slack", id: 803453959
-mas "Trello", id: 1278508951
-mas "Xcode", id: 497799835
-
 whalebrew "whalebrew/imagemagick"
 whalebrew "whalebrew/jq"
 whalebrew "whalebrew/plantuml"
