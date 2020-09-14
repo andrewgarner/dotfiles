@@ -35,6 +35,9 @@ brew "fish"
 # Distributed revision control system
 brew "git"
 
+# Graph visualization software
+brew "graphviz"
+
 # Improved top (interactive process viewer)
 brew "htop"
 
