@@ -9,6 +9,7 @@ tap "adoptopenjdk/openjdk"
 tap "fundingcircle/floss"
 tap "hashicorp/tap"
 tap "heroku/brew"
+tap "versent/homebrew-taps"
 
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@1.1"
@@ -39,6 +40,9 @@ brew "hub"
 
 # Mac App Store command-line interface
 brew "mas"
+
+# CLI tool which enables you to login and retrieve AWS temporary credentials using a SAML IDP
+brew "saml2aws"
 
 # The cross-shell prompt for astronauts
 brew "starship"
