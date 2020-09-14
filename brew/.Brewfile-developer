@@ -26,6 +26,9 @@ brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 
+# Enables you to reproduce the CircleCI environment locally
+brew "circleci"
+
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 
