@@ -50,6 +50,9 @@ brew "hub"
 # Mac App Store command-line interface
 brew "mas"
 
+# Command-line collection runner for Postman
+brew "newman"
+
 # CLI tool which enables you to login and retrieve AWS temporary credentials using a SAML IDP
 brew "saml2aws"
 
