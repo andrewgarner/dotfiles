@@ -149,6 +149,10 @@
 	show = `brew --prefix`/share/git-core/contrib/diff-highlight/diff-highlight | less
 	diff = `brew --prefix`/share/git-core/contrib/diff-highlight/diff-highlight | less
 
+[pull]
+	default = current
+	rebase = true
+
 [push]
 	default = current
 
