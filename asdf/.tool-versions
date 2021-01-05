@@ -3,3 +3,4 @@ nodejs latest:14
 nodejs latest:15
 python latest:3
 ruby latest:2
+ruby latest:3
