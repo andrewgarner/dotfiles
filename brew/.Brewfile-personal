@@ -17,6 +17,7 @@ cask "grammarly"
 cask "hey"
 cask "jabra-direct"
 cask "kindle"
+cask "signal"
 cask "sketchup-pro"
 cask "whatsapp"
 
