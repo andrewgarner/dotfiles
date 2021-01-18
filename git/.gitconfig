@@ -130,6 +130,9 @@
 [interactive]
 	diffFilter = `brew --prefix`/share/git-core/contrib/diff-highlight/diff-highlight
 
+[init]
+	defaultBranch = main
+
 [merge]
 	tool = Emacs Diff
 
