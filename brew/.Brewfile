@@ -9,6 +9,7 @@ brew "mas"
 cask "1password" # Password manager that keeps all passwords secure behind one password
 cask "aerial"
 cask "alfred" # Application launcher and productivity software
+cask "brave-browser" # Web browser focusing on privacy
 cask "camo-studio" # Use your phone as a high-quality webcam with image tuning controls
 cask "elgato-control-center"
 cask "google-chrome" # Web browser
