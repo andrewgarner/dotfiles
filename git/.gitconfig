@@ -54,6 +54,9 @@
 	hub = browse
 	hubd = compare
 
+	# investigate
+	investigate = blame
+
 	# index
 	s = status
 	a = add
