@@ -118,6 +118,9 @@
 [difftool]
 	prompt = false
 
+[fetch]
+	prune = true
+
 [format]
 	pretty = oneline
 
