@@ -6,6 +6,8 @@ tap "homebrew/core"
 tap "homebrew/services"
 
 tap "adoptopenjdk/openjdk"
+tap "cantino/mcfly"
+tap "clementtsang/bottom"
 tap "hashicorp/tap"
 tap "heroku/brew"
 tap "remotemobprogramming/brew"
@@ -13,6 +15,9 @@ tap "versent/homebrew-taps"
 
 # CLI tool for working with Architecture Decision Records
 brew "adr-tools"
+
+# Code-search similar to ack
+brew "ag"
 
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
 brew "asdf"
@@ -29,6 +34,15 @@ brew "bat"
 # Safely store secrets in Git/Mercurial/Subversion
 brew "blackbox"
 
+# New way to see and navigate directory trees
+brew "broot"
+
+# Create and view interactive cheat sheets for *nix commands
+brew "cheat"
+
+# Make choices on the command-line
+brew "choose"
+
 # Enables you to reproduce the CircleCI environment locally
 brew "circleci"
 
@@ -38,11 +52,35 @@ brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 
+# Power of curl, ease of use of httpie
+brew "curlie"
+
+# Disk Usage/Free Utility - a better 'df' alternative
+brew "duf"
+
+# More intuitive version of du in rust
+brew "dust"
+
+# Modern replacement for 'ls'
+brew "exa"
+
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 
+# Command-line fuzzy finder written in Go
+brew "fzf"
+
+# Alternative to top/htop
+brew "glances"
+
 # Distributed revision control system
 brew "git"
+
+# Syntax-highlighting pager for git and diff output
+brew "git-delta"
 
 # GitHub command-line tool
 brew "gh"
@@ -56,6 +94,15 @@ brew "htop"
 # Add GitHub support to git on the command-line
 brew "hub"
 
+# User-friendly cURL replacement (command-line HTTP client)
+brew "httpie"
+
+# Command-line benchmarking tool
+brew "hyperfine"
+
+# Clone of ls with colorful output, file type icons, and more
+brew "lsd"
+
 # Command-line collection runner for Postman
 brew "newman"
 
@@ -65,8 +112,17 @@ brew "openssl@1.1"
 # Framework for layout and rendering of i18n text
 brew "pango"
 
+# Modern replacement for ps written by Rust
+brew "procs"
+
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+
 # CLI tool which enables you to login and retrieve AWS temporary credentials using a SAML IDP
 brew "saml2aws"
+
+# Intuitive find & replace CLI
+brew "sd"
 
 # Cross-shell prompt for astronauts
 brew "starship"
@@ -77,6 +133,9 @@ brew "stow"
 # Generate clients, server stubs, and docs from an OpenAPI spec
 brew "swagger-codegen"
 
+# Very fast implementation of tldr in Rust
+brew "tealdeer"
+
 # Simplified and community-driven man pages
 brew "tldr"
 
@@ -85,6 +144,18 @@ brew "tree"
 
 # Homebrew, but with Docker images
 brew "whalebrew"
+
+# Friendly and fast tool for sending HTTP requests
+brew "xh"
+
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
+
+# Fly through your shell history. Great Scott!
+brew "cantino/mcfly/mcfly"
+
+# A cross-platform graphical process/system monitor with a customizable interface and a multitude of features.
+brew "clementtsang/bottom/bottom"
 
 # Terraform Language Server
 brew "hashicorp/tap/terraform-ls"
