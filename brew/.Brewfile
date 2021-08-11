@@ -13,6 +13,7 @@ cask "brave-browser" # Web browser focusing on privacy
 cask "camo-studio" # Use your phone as a high-quality webcam with image tuning controls
 cask "elgato-control-center"
 cask "google-chrome" # Web browser
+cask "google-drive" # Client for the Google Drive storage service
 cask "logitech-camera-settings"
 cask "logitech-options" # Software for Logitech devices
 cask "rectangle" # Move and resize windows using keyboard shortcuts or snap areas
