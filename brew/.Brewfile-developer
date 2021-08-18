@@ -131,6 +131,9 @@ brew "starship"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
 
+# Command-line utility for Structurizr
+brew "structurizr-cli"
+
 # Generate clients, server stubs, and docs from an OpenAPI spec
 brew "swagger-codegen"
 
