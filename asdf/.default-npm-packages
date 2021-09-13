@@ -1,6 +1,7 @@
 @google/clasp
 npm-merge-driver
 prettier
+renamer
 ts-node
 typescript
 yarn
