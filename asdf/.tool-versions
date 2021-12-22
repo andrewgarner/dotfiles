@@ -1,8 +1,4 @@
-nodejs latest:12
-nodejs latest:14
-nodejs latest:15
-nodejs latest:16
-python latest:3
-ruby latest:2
-ruby latest:3
-terraform latest
+nodejs 16.13.1
+python 3.10.1
+ruby 3.0.3
+terraform 1.1.2
