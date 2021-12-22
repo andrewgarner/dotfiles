@@ -14,6 +14,9 @@ tap "heroku/brew"
 tap "remotemobprogramming/brew"
 tap "versent/homebrew-taps"
 
+# 1Password CLI
+brew "1password-cli"
+
 # CLI tool for working with Architecture Decision Records
 brew "adr-tools"
 
