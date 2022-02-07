@@ -50,6 +50,9 @@ brew "choose"
 # Enables you to reproduce the CircleCI environment locally
 brew "circleci"
 
+# Container runtimes on MacOS with minimal setup
+brew "colima"
+
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 
@@ -58,6 +61,12 @@ brew "curl"
 
 # Power of curl, ease of use of httpie
 brew "curlie"
+
+# Pack, ship and run any application as a lightweight container
+brew "docker"
+
+# Isolated development environments using Docker
+brew "docker-compose"
 
 # Disk Usage/Free Utility - a better 'df' alternative
 brew "duf"
@@ -178,7 +187,6 @@ cask "adoptopenjdk11-jre" # AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "camo-studio" # Use your phone as a high-quality webcam with image tuning controls
 cask "chromium" # Free and open-source web browser
 cask "dash" # API documentation browser and code snippet manager
-cask "docker" # App to build and share containerized applications and microservices
 cask "discord" # Voice and text chat software
 cask "drawio" # Draw.io is free online diagram software
 cask "emacs" # Text editor
