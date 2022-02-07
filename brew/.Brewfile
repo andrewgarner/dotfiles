@@ -10,6 +10,7 @@ cask "1password" # Password manager that keeps all passwords secure behind one p
 cask "aerial"
 cask "brave-browser" # Web browser focusing on privacy
 cask "camo-studio" # Use your phone as a high-quality webcam with image tuning controls
+cask "elgato-camera-hub" # Elgato FACECAM configuration tool
 cask "elgato-control-center"
 cask "google-chrome" # Web browser
 cask "google-drive" # Client for the Google Drive storage service
