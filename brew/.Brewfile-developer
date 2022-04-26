@@ -134,9 +134,6 @@ brew "procs"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 
-# CLI tool which enables you to login and retrieve AWS temporary credentials using a SAML IDP
-brew "saml2aws"
-
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
 
