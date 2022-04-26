@@ -189,7 +189,6 @@ brew "remotemobprogramming/brew/mob"
 cask "adoptopenjdk11-jre" # AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "camo-studio" # Use your phone as a high-quality webcam with image tuning controls
 cask "chromium" # Free and open-source web browser
-cask "dash" # API documentation browser and code snippet manager
 cask "discord" # Voice and text chat software
 cask "drawio" # Draw.io is free online diagram software
 cask "emacs" # Text editor
