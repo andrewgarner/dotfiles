@@ -113,6 +113,9 @@ brew "httpie"
 # Command-line benchmarking tool
 brew "hyperfine"
 
+# JSON output from a shell
+brew "jo"
+
 # Clone of ls with colorful output, file type icons, and more
 brew "lsd"
 
