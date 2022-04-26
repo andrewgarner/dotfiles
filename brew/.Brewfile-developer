@@ -204,7 +204,6 @@ cask "keybase" # End-to-end encryption software
 cask "miro"
 cask "nosql-workbench" # Client-side GUI application for modern database development and operations
 cask "notion" # App to write, plan, collaborate, and get organized
-cask "pop" # Remote pair programming
 cask "postman" # Collaboration platform for API development
 cask "powershell" # Command-line shell and scripting language
 cask "sketch" # Digital design and prototyping platform
