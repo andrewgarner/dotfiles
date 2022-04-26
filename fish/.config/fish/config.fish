@@ -1,3 +1,4 @@
+set -g fish_greeting
 set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
 
 alias d docker
