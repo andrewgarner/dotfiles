@@ -196,6 +196,7 @@ cask "dash" # API documentation browser and code snippet manager
 cask "discord" # Voice and text chat software
 cask "drawio" # Draw.io is free online diagram software
 cask "emacs" # Text editor
+cask "fig" # Reimagine your terminal
 cask "figma"
 cask "firefox-developer-edition" # Web browser
 cask "font-jetbrains-mono" # Typeface made for developers
