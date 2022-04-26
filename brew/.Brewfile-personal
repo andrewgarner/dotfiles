@@ -8,7 +8,6 @@ brew "mas"
 
 cask "3dconnexion"
 cask "autodesk-fusion360"
-cask "backblaze"
 cask "dymo-label"
 cask "folding-at-home"
 cask "fujitsu-scansnap-home"
