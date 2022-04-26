@@ -1,2 +1,3 @@
-conf.d/cazoo.fish
+conf.d/99_cazoo.fish
+fish_variables
 fisher.fish
