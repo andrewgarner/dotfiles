@@ -213,6 +213,7 @@ cask "pop" # Remote pair programming
 cask "postman" # Collaboration platform for API development
 cask "powershell" # Command-line shell and scripting language
 cask "sketch" # Digital design and prototyping platform
+cask "tabby" # Terminal emulator, SSH and serial client
 cask "visual-studio-code" # Open-source code editor
 
 mas "Jira", id: 1475897096
