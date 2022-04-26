@@ -1,4 +1,4 @@
 nodejs 16.13.1
-python 3.10.1
+python path:/Library/Frameworks/Python.framework/Versions/3.10/bin/python3-intel64
 ruby 3.0.3
 terraform 1.1.2
