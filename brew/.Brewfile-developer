@@ -202,7 +202,7 @@ cask "gpg-suite" # Tools to protect your emails and files
 cask "jetbrains-toolbox" # JetBrains tools manager
 cask "keybase" # End-to-end encryption software
 cask "loom" # Screen and video recording software
-cask "miro"
+cask "miro" # Online collaborative whiteboard platform
 cask "nosql-workbench" # Client-side GUI application for modern database development and operations
 cask "notion" # App to write, plan, collaborate, and get organized
 cask "postman" # Collaboration platform for API development
