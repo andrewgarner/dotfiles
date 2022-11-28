@@ -210,6 +210,7 @@ cask "powershell" # Command-line shell and scripting language
 cask "sketch" # Digital design and prototyping platform
 cask "tabby" # Terminal emulator, SSH and serial client
 cask "visual-studio-code" # Open-source code editor
+cask "yubico-yubikey-manager" # YubiKey Manager is a cross-platform application for configuring your YubiKey
 
 mas "Jira", id: 1475897096
 mas "Slack", id: 803453959
