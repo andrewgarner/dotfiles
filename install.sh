@@ -25,11 +25,11 @@ stow fish
 echo "Installing Git dotfiles"
 stow git
 
+echo "Installing GNU Privacy Guard dotfiles"
+stow gnupg
+
 echo "Installing Ion shell dotfiles"
 stow ion
-
-echo "Installing PowerShell dotfiles"
-stow powershell
 
 echo "Installing Z shell dotfiles"
 stow zsh

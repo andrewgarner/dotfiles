@@ -109,7 +109,6 @@ cask "miro" # Online collaborative whiteboard platform
 cask "nosql-workbench" # Client-side GUI application for modern database development and operations
 cask "notion" # App to write, plan, collaborate, and get organized
 cask "postman" # Collaboration platform for API development
-cask "powershell" # Command-line shell and scripting language
 cask "sketch" # Digital design and prototyping platform
 cask "teamviewer" # Remote access software
 cask "visual-studio-code" # Open-source code editor
