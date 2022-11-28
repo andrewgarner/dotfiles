@@ -20,9 +20,6 @@ brew "1password-cli"
 # CLI tool for working with Architecture Decision Records
 brew "adr-tools"
 
-# Code-search similar to ack
-brew "ag"
-
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
 brew "asdf"
 
@@ -31,24 +28,6 @@ brew "awscli"
 
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
-
-# Clone of cat(1) with syntax highlighting and Git integration
-brew "bat"
-
-# Safely store secrets in Git/Mercurial/Subversion
-brew "blackbox"
-
-# New way to see and navigate directory trees
-brew "broot"
-
-# Create and view interactive cheat sheets for *nix commands
-brew "cheat"
-
-# Make choices on the command-line
-brew "choose"
-
-# Enables you to reproduce the CircleCI environment locally
-brew "circleci"
 
 # Container runtimes on MacOS with minimal setup
 brew "colima"
@@ -59,41 +38,17 @@ brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 
-# Power of curl, ease of use of httpie
-brew "curlie"
-
 # Pack, ship and run any application as a lightweight container
 brew "docker"
 
 # Isolated development environments using Docker
 brew "docker-compose"
 
-# Disk Usage/Free Utility - a better 'df' alternative
-brew "duf"
-
-# More intuitive version of du in rust
-brew "dust"
-
-# Modern replacement for 'ls'
-brew "exa"
-
-# Simple, fast and user-friendly alternative to find
-brew "fd"
-
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 
-# Command-line fuzzy finder written in Go
-brew "fzf"
-
-# Alternative to top/htop
-brew "glances"
-
 # Distributed revision control system
 brew "git"
-
-# Syntax-highlighting pager for git and diff output
-brew "git-delta"
 
 # GitHub command-line tool
 brew "gh"
@@ -101,44 +56,17 @@ brew "gh"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
 
-# Improved top (interactive process viewer)
-brew "htop"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick"
 
 # Add GitHub support to git on the command-line
 brew "hub"
 
-# User-friendly cURL replacement (command-line HTTP client)
-brew "httpie"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 
-# Command-line benchmarking tool
-brew "hyperfine"
-
-# JSON output from a shell
-brew "jo"
-
-# Clone of ls with colorful output, file type icons, and more
-brew "lsd"
-
-# Command-line collection runner for Postman
-brew "newman"
-
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@1.1"
-
-# Framework for layout and rendering of i18n text
-brew "pango"
-
-# Modern replacement for ps written by Rust
-brew "procs"
-
-# Search tool like grep and The Silver Searcher
-brew "ripgrep"
-
-# GNU implementation of the famous stream editor
-brew "gnu-sed"
-
-# Intuitive find & replace CLI
-brew "sd"
+# Draw UML diagrams
+brew "plantuml"
 
 # Cross-shell prompt for astronauts
 brew "starship"
@@ -152,29 +80,8 @@ brew "structurizr-cli"
 # Generate clients, server stubs, and docs from an OpenAPI spec
 brew "swagger-codegen"
 
-# Very fast implementation of tldr in Rust
-brew "tealdeer"
-
-# Simplified and community-driven man pages
-brew "tldr"
-
-# Display directories as trees (with optional color/HTML output)
-brew "tree"
-
-# Homebrew, but with Docker images
-brew "whalebrew"
-
-# Friendly and fast tool for sending HTTP requests
-brew "xh"
-
-# Shell extension to navigate your filesystem faster
-brew "zoxide"
-
-# Fly through your shell history. Great Scott!
-brew "cantino/mcfly/mcfly"
-
-# A cross-platform graphical process/system monitor with a customizable interface and a multitude of features.
-brew "clementtsang/bottom/bottom"
+# Process YAML documents from the CLI
+brew "yq"
 
 # Terraform Language Server
 brew "hashicorp/tap/terraform-ls"
@@ -190,17 +97,13 @@ cask "adoptopenjdk11-jre" # AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "camo-studio" # Use your phone as a high-quality webcam with image tuning controls
 cask "chromium" # Free and open-source web browser
 cask "discord" # Voice and text chat software
-cask "drawio" # Draw.io is free online diagram software
 cask "emacs" # Text editor
-cask "fig" # Reimagine your terminal
 cask "figma"
 cask "firefox-developer-edition" # Web browser
 cask "font-jetbrains-mono" # Typeface made for developers
-cask "font-juliamono" # Monospaced typeface designed for programming in Julia
 cask "google-cloud-sdk" # Set of tools to manage resources and applications hosted on Google Cloud
 cask "gpg-suite" # Tools to protect your emails and files
 cask "jetbrains-toolbox" # JetBrains tools manager
-cask "keybase" # End-to-end encryption software
 cask "loom" # Screen and video recording software
 cask "miro" # Online collaborative whiteboard platform
 cask "nosql-workbench" # Client-side GUI application for modern database development and operations
@@ -208,7 +111,7 @@ cask "notion" # App to write, plan, collaborate, and get organized
 cask "postman" # Collaboration platform for API development
 cask "powershell" # Command-line shell and scripting language
 cask "sketch" # Digital design and prototyping platform
-cask "tabby" # Terminal emulator, SSH and serial client
+cask "teamviewer" # Remote access software
 cask "visual-studio-code" # Open-source code editor
 cask "yubico-yubikey-manager" # YubiKey Manager is a cross-platform application for configuring your YubiKey
 
@@ -216,8 +119,3 @@ mas "Jira", id: 1475897096
 mas "Slack", id: 803453959
 mas "Trello", id: 1278508951
 mas "Xcode", id: 497799835
-
-whalebrew "whalebrew/imagemagick"
-whalebrew "whalebrew/jq"
-whalebrew "whalebrew/plantuml"
-whalebrew "whalebrew/yq"
